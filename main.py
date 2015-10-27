@@ -1,4 +1,5 @@
 from set_cover.solver import Solver
+from file_handler.handler import FileHandler
 import numpy as np
 
 if __name__ == "__main__":
@@ -49,17 +50,23 @@ if __name__ == "__main__":
 	# c = np.array([1, 1, 1, 1, 1]).astype(float)
 
 	#  esse exemplo nao da otimo - otimo: 22
-	A = np.array([
-					[0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
-					[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
-					[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
-					]).T
+	# A = np.array([
+	# 				[0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+	# 				[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+	# 				[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+	# 				]).T
 
-	c = np.array([6, 15, 7]).astype(float)
+	# c = np.array([6, 15, 7]).astype(float)
 
+	fh = FileHandler('datasets/scpa1.txt')
+	A, c = fh.process()
+
+	print "A = ", A
+	print "c = ", c
+	print "len(c) = ", len(c)
 
 	s = Solver(A, c)
 	s.solve()
 	s.print_solution()
 	print "solution as sets: {0}".format(s.get_solution_as_sets())
-	print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
+	# print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
