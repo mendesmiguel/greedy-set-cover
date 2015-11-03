@@ -11,7 +11,7 @@ class Solver(object):
 		self.U = None
 		self.S = []
 
-	def solve(self):
+	def solve(self, alpha, M):
 		m, n = self.m, self.n
 
 		C = set()
@@ -36,6 +36,29 @@ class Solver(object):
 			print "C: ", C
 		print "DONE!\n\n"
 
+	def __local_search(self, sol):
+		# sol: [True, False, True...]
+		best_sol_cost = self.__get_cost(sol)
+		best_sol = sol.copy()
+
+		for i in range(len(sol)):
+			sol_copy = sol.copy()
+			sol_copy[i] = not sol_copy[i]
+			if self.__is_feasible(sol_copy):
+				cost = self.__get_cost(sol_copy)
+				if cost < best_sol:
+					best_sol_cost = cost
+					best_sol = sol_copy
+		return best_sol
+
+	def __get_cost(self, sol):
+		cost = np.sum(c[sol])
+		return cost
+
+	def __is_feasible(self, sol):
+		res = np.sum(self.A[:, sol], axis=1)
+		return 0 in res
+
 	def __remove_intersection(self, sj):
 		p = self.A_copy[:, sj] > 0
 		# para cada coluna (set) remova a intersecao
@@ -49,13 +72,15 @@ class Solver(object):
 
 		for j, cj in enumerate(self.c):
 			# seleciona a coluna pj
-			pj = np.nonzero(self.A_copy[:, j] > 0)[0]
+			pj = self.__get_collumn(j)
 			# se |pj| / cj > max_ratio entao guarde o indice
 			if len(pj) / cj > max_ratio:
 				max_ratio = len(pj) / cj
 				sj = j
 		return sj, max_ratio
 
+	def __get_collumn(self, col_idx):
+		return np.nonzero(self.A_copy[:, col_idx] > 0)[0]
 	def __get_universe(self):
 		return set([i for i in range(self.m)])
 
