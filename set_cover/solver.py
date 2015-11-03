@@ -51,8 +51,15 @@ class Solver(object):
 					best_sol = sol_copy
 		return best_sol
 
+	def __greedy_randomized_construction(self, alpha):
+		solution = np.zeros(self.n, dtype=bool)
+
+		while not self.__is_feasible(solution):
+			rcl = self.__get_rcl()
+
+
 	def __get_cost(self, sol):
-		cost = np.sum(c[sol])
+		cost = np.sum(self.c[sol])
 		return cost
 
 	def __is_feasible(self, sol):
