@@ -1,4 +1,5 @@
 import numpy as np
+import random
 
 class Solver(object):
 
@@ -8,9 +9,9 @@ class Solver(object):
 		self.c = c
 		self.m, self.n = self.A_copy.shape
 		self.total_cost = 0
-		self.U = None
 		self.S = []
 
+	"""
 	def solve(self, alpha, M):
 		m, n = self.m, self.n
 
@@ -35,60 +36,99 @@ class Solver(object):
 			print "Sets added to the solution so far: %s" % (self.S) 
 			print "C: ", C
 		print "DONE!\n\n"
+	"""
+	def solve(self, alpha, N):
+		best_sol = np.ones(self.n, dtype=bool)
 
-	def __local_search(self, sol):
+		for i in range(N):
+			print "iteration {0}: \n".format(i)
+			print "best solution found so far {0} has cost: {1}\n".format(best_sol, self._get_cost(best_sol))
+			solution = self._greedy_randomized_construction(alpha)
+			print "greedy construction generated solution {0} with cost: {1}\n".format(solution, self._get_cost(solution))
+			solution = self._local_search(solution)
+			print "local search generated solution {0} with cost: {1}\n".format(solution, self._get_cost(solution))
+
+			if self._get_cost(solution) < self._get_cost(best_sol): 
+				best_sol = solution
+				print "local search produced a better solution {0} with cost: {1}\n".format(best_sol, self._get_cost(solution))
+		return best_sol
+
+	def _local_search(self, sol):
 		# sol: [True, False, True...]
-		best_sol_cost = self.__get_cost(sol)
+		best_sol_cost = self._get_cost(sol)
 		best_sol = sol.copy()
-
+		print "### local search ###\n"
 		for i in range(len(sol)):
 			sol_copy = sol.copy()
 			sol_copy[i] = not sol_copy[i]
-			if self.__is_feasible(sol_copy):
-				cost = self.__get_cost(sol_copy)
-				if cost < best_sol:
+			print "	best solution found so far {0} has cost: {1}\n".format(best_sol, self._get_cost(best_sol))
+			print "	solution {0}: {1}\n".format(i, sol_copy)
+			if self._is_feasible(sol_copy):
+				cost = self._get_cost(sol_copy)
+				print "	solution {0} is feasible and has cost: {1}\n".format(sol_copy, cost)
+				if cost < best_sol_cost:
 					best_sol_cost = cost
 					best_sol = sol_copy
 		return best_sol
 
-	def __greedy_randomized_construction(self, alpha):
+	def _greedy_randomized_construction(self, alpha):
 		solution = np.zeros(self.n, dtype=bool)
+		print "### greedy randomized construction ###\n"
+		# while not self._is_feasible(solution):
+		for i in range(5):
+			rcl = self._get_rcl(alpha)
+			print "	rlc: {0}\n".format(rcl)
+			v = self._get_candidate(rcl)
+			print "	chosen candidate: {0}\n".format(v)
+			solution[v[0]] = True
+			print "	solution: {0}\n".format(solution)
+			self._remove_intersection(v[0])
+		return solution
 
-		while not self.__is_feasible(solution):
-			rcl = self.__get_rcl()
+	def _get_rcl(self, alpha):
+		card = np.sum(self.A_copy, axis=0).astype(float)
+		n = self.A_copy.shape[1]
+		return np.argsort(card)[::-1][:alpha * n]
 
+	def _get_candidate(self, rlc):
+		return random.choice(list(enumerate(rlc)))
 
-	def __get_cost(self, sol):
+	def _get_cost(self, sol):
 		cost = np.sum(self.c[sol])
 		return cost
 
-	def __is_feasible(self, sol):
+	def _is_feasible(self, sol):
 		res = np.sum(self.A[:, sol], axis=1)
 		return 0 in res
 
-	def __remove_intersection(self, sj):
+	def _remove_intersection(self, sj):
+		print "## remove intersection ##"
+		print "	before: {0}".format(self.A_copy)
 		p = self.A_copy[:, sj] > 0
 		# para cada coluna (set) remova a intersecao
 		# print "A = ", self.A_copy
 		for j in range(self.n):
 			self.A_copy[:, j][p] = 0
-		# print "p: ", p
+		print "	after: {0}".format(self.A_copy)
+	"""
 	def __best_set(self):
 		max_ratio = -1
 		sj = -1
 
 		for j, cj in enumerate(self.c):
 			# seleciona a coluna pj
-			pj = self.__get_collumn(j)
+			pj = self._get_collumn(j)
 			# se |pj| / cj > max_ratio entao guarde o indice
 			if len(pj) / cj > max_ratio:
 				max_ratio = len(pj) / cj
 				sj = j
 		return sj, max_ratio
+	"""
 
-	def __get_collumn(self, col_idx):
+	def _get_collumn(self, col_idx):
 		return np.nonzero(self.A_copy[:, col_idx] > 0)[0]
-	def __get_universe(self):
+
+	def _get_universe(self):
 		return set([i for i in range(self.m)])
 
 	def get_solution_as_sets(self):
@@ -101,18 +141,17 @@ class Solver(object):
 		A_copy = self.A.copy()
 		return A_copy[:, [sj for sj in self.S]]
 
-	def __get_set_by_index(self, j):
+	def _get_set_by_index(self, j):
 		pj = np.nonzero(self.A[:, j] > 0)[0].tolist()
 		return pj
 
 	def print_solution(self):
-		print "# universe: %s" % (self.U)
 		print "# original sets: "
 		for j in range(self.n):
-			print "S%d: %s -- cost: %.3f" % (j, self.__get_set_by_index(j), self.c[j])
+			print "S%d: %s -- cost: %.3f" % (j, self._get_set_by_index(j), self.c[j])
 
 		print "# solution: "
 		for sj in self.S:
-			print "S%d: %s" % (sj, self.__get_set_by_index(sj))
+			print "S%d: %s" % (sj, self._get_set_by_index(sj))
 
 		print "Total cost: %.3f" % (self.total_cost)
