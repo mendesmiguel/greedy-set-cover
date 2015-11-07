@@ -64,10 +64,10 @@ if __name__ == "__main__":
 	print "A shape = ", A.shape
 	# print "c = ", c
 	print "len(c) = ", len(c)
-	print "\n\n\n"
+	print "\n"
 
 	s = Solver(A, c)
-	s.solve(0.1, 100000)
+	s.solve(0.005, 50000)
 	s.print_solution()
 	print "solution as sets: {0}".format(s.get_solution_as_sets())
 	# print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
