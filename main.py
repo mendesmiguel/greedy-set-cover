@@ -61,12 +61,8 @@ if __name__ == "__main__":
 	fh = FileHandler('datasets/scp41.txt')
 	A, c = fh.process()
 
-	print "A shape = ", A.shape
-	# print "c = ", c
-	print "len(c) = ", len(c)
-	print "\n"
 
-	s = Solver(A, c)
+	s = Solver(A, c, "4_1")
 	s.solve(0.005, 50000)
 	s.print_solution()
 	print "solution as sets: {0}".format(s.get_solution_as_sets())
