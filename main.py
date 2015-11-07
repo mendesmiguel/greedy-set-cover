@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 	# c = np.array([6, 15, 7]).astype(float)
 
-	fh = FileHandler('datasets/scpa1.txt')
+	fh = FileHandler('datasets/scp41.txt')
 	A, c = fh.process()
 
 	print "A shape = ", A.shape
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 	print "\n\n\n"
 
 	s = Solver(A, c)
-	s.solve(0.5, 5)
+	s.solve(0.1, 100000)
 	s.print_solution()
 	print "solution as sets: {0}".format(s.get_solution_as_sets())
 	# print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
