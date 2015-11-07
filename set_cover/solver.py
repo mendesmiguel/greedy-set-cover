@@ -38,10 +38,11 @@ class Solver(object):
 	def _local_search(self, sol):
 		best_sol_cost = self._get_cost(sol)
 		best_sol = sol.copy()
-
-		for i in range(len(sol)):
+		offset = 10
+		for i in range(len(sol)-offset):
 			sol_copy = sol.copy()
 			sol_copy[i] = not sol_copy[i]
+			sol_copy[i + offset] = not sol_copy[i + offset]
 			A = self.A.copy()
 
 			if self._is_feasible(sol_copy, A):

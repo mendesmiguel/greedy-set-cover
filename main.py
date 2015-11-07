@@ -62,8 +62,8 @@ if __name__ == "__main__":
 	A, c = fh.process()
 
 
-	s = Solver(A, c, "4_1")
-	s.solve(0.005, 50000)
+	s = Solver(A, c, "flip")
+	s.solve(0.01, 10000)
 	s.print_solution()
 	print "solution as sets: {0}".format(s.get_solution_as_sets())
 	# print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
