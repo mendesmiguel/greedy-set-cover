@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
 
 	s = Solver(A, c, "reactive_test")
-	s.solve(N=1000, limit=20)
+	s.solve(N=2000, limit=50)
 	s.print_solution()
 	# print "solution as sets: {0}".format(s.get_solution_as_sets())
 	# print "solution as matrix A: {0}".format(s.get_solution_as_matrix())

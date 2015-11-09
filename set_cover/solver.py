@@ -111,7 +111,7 @@ class Solver(object):
 			if self._is_feasible(sol_copy, A):
 				cost = self._get_cost(sol_copy)
 				if cost < best_sol_cost:
-					logging.info("local search produced solution with cost: {0}".format(cost))
+					# logging.info("local search produced solution with cost: {0}".format(cost))
 					best_sol_cost = cost
 					best_sol = sol_copy
 		return best_sol
