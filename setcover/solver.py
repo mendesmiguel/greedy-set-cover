@@ -16,7 +16,7 @@ class Solver(object):
 		self.total_cost = 0
 		self.S = None
 
-	def solve(self, N, limit=200):
+	def solve(self, N, alpha=None, limit=200):
 		logging.info("A shape: {0}".format(self.A.shape))
 		logging.info("N iterations: {0}".format(N))
 		

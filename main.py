@@ -71,6 +71,6 @@ if __name__ == "__main__":
 		fh = FileHandler(dataset)
 		A, c = fh.process()
 		s = Solver(A, c, logfile)
-		s.solve(float(alpha), int(N))
+		s.solve(N=int(N))
 		s.print_solution()
 		# print "solution as sets: {0}".format(s.get_solution_as_sets())
