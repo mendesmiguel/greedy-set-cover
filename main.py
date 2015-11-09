@@ -1,6 +1,8 @@
-from set_cover.solver import Solver
-from file_handler.handler import FileHandler
+#!/usr/bin/python
+from setcover.solver import Solver
+from filehandler.handler import FileHandler
 import numpy as np
+import sys
 
 if __name__ == "__main__":
 
@@ -58,12 +60,17 @@ if __name__ == "__main__":
 
 	# c = np.array([6, 15, 7]).astype(float)
 
-	fh = FileHandler('datasets/scp41.txt')
-	A, c = fh.process()
-
-
-	s = Solver(A, c, "4_1-2")
-	s.solve(0.005, 50000)
-	s.print_solution()
-	print "solution as sets: {0}".format(s.get_solution_as_sets())
+	total = len(sys.argv)
+	if total != 5:
+		print "Usage: ./main.py [dataset] [logfilename] [alpha] [num of iterations]" 
+		# print "Given: ", sys.argv
+	else:
+		# print "Given: ", sys.argv
+		dataset, logfile, alpha, N = sys.argv[1:]
+		fh = FileHandler(dataset)
+		A, c = fh.process()
+		s = Solver(A, c, logfile)
+		s.solve(float(alpha), int(N))
+		s.print_solution()
+		# print "solution as sets: {0}".format(s.get_solution_as_sets())
 	# print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
