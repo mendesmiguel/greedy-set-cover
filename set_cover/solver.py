@@ -3,7 +3,6 @@ import random
 import logging
 
 class Solver(object):
-
 	def __init__(self, A, c, problem_name):
 		logging.basicConfig(filename=problem_name+'.log',
 							level=logging.DEBUG,
@@ -17,25 +16,88 @@ class Solver(object):
 		self.total_cost = 0
 		self.S = None
 
-	def solve(self, alpha, N):
-		best_sol = np.ones(self.n, dtype=bool)
+	def solve(self, N, limit=200):
 		logging.info("A shape: {0}".format(self.A.shape))
 		logging.info("N iterations: {0}".format(N))
-		logging.info("alpha: {0}".format(alpha))
-		logging.info("RCL length: {0}".format(len(self._get_rcl(alpha))))
+		
+		# alpha_set_values = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+		alpha_set_values = [0.005, 0.007, 0.01, 0.015, 0.02, 0.025, 0.05, 0.1, \
+							0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+
+		alpha_set_idx = [i for i in range(len(alpha_set_values))]
+		na = [0 for _ in range(len(alpha_set_idx))]
+		sum_alpha = [0 for _ in range(len(alpha_set_idx))]
+		proba = [1 / float(len(alpha_set_idx)) for _ in range(len(alpha_set_idx))]
+		logging.info("proba: {0}".format(proba))
+
+		best_sol = np.ones(self.n, dtype=bool)
+		worst_sol = np.zeros(self.n, dtype=bool)
+
+		S_best = np.sum(self.c)
+		S_worst = 0
+
+		pool_sols = [np.array([], dtype=int) for _ in range(len(alpha_set_idx))]
+
 		for i in range(N):
+			logging.info("iteration {0}:".format(i))
 			self.A_copy = self.A.copy()
 			self.c_copy = self.c.copy()
-			logging.info("iteration {0}:".format(i))
+
+			alpha_idx = self._random_select(alpha_set_idx, proba)
+			na[alpha_idx] += 1
+
+			alpha = alpha_set_values[alpha_idx]
+
+			logging.info("alpha choosen: {0}".format(alpha))
+			logging.info("RCL length: {0}".format(len(self._get_rcl(alpha))))
+
 			solution = self._greedy_randomized_construction(alpha)
 			logging.info("greedy construction generated solution with cost: {0}".format(self._get_cost(solution)))
-			solution = self._local_search(solution)
 
-			if self._get_cost(solution) < self._get_cost(best_sol): 
+			solution = self._local_search(solution)
+			logging.info("local search generated solution with cost: {0}".format(self._get_cost(solution)))
+
+			pool_sols[alpha_idx] = np.append(pool_sols[alpha_idx], self._get_cost(solution))
+
+			if self._get_cost(solution) < S_best: 
 				best_sol = solution
-			logging.info("best solution so far has cost:: {0}".format(self._get_cost(best_sol)))
+				S_best = self._get_cost(best_sol)
+			if self._get_cost(solution) > S_worst:
+				worst_sol = solution
+				S_worst = self._get_cost(worst_sol)
+
+			if i % limit == 0 and S_worst > S_best:
+				evaluations = self._evaluate(S_best, S_worst, pool_sols)
+				logging.info("evaluations in limit: {0}".format(evaluations))
+				proba = self._update_probabilities(evaluations)
+				logging.info("probs in limit: {0}".format(proba))
+
+			logging.info("best solution so far has cost: {0}".format(S_best))
+			logging.info("worst solution so far has cost: {0}".format(S_worst))
 		self.S = np.where(best_sol == True)[0].tolist()
 		self.total_cost = self._get_cost(best_sol)
+
+	def _evaluate(self, S_best, S_worst, pool_sols):
+		evaluations = [0 for _ in range(len(pool_sols))]
+
+		for alpha_idx, pool_sol in enumerate(pool_sols):
+			evaluations[alpha_idx] = (S_worst - self._get_mean(pool_sol)) / float(S_worst - S_best)
+		return evaluations
+
+	def _update_probabilities(self, evaluations):
+		eval_sum = np.sum(evaluations)
+		new_proba = [0.0 for _ in range(len(evaluations))]
+		for alpha_idx, evaluation in enumerate(evaluations):
+			new_proba[alpha_idx] = evaluation / float(eval_sum)
+		return new_proba
+
+	def _random_select(self, alpha_set_idx, prob):
+		return np.random.choice(alpha_set_idx, p=prob)
+
+	def _get_mean(self, pool_sol):
+		if len(pool_sol) == 0:
+			return 0
+		return np.mean(pool_sol)
 
 	def _local_search(self, sol):
 		best_sol_cost = self._get_cost(sol)
@@ -116,16 +178,16 @@ class Solver(object):
 		return pj
 
 	def print_solution(self):
-		print "# original sets: "
+		# print "# original sets: "
 
-		for j in range(self.n):
-			print "S%d: %s -- cost: %.3f" % (j, self._get_set_by_index(j), self.c[j])
-			logging.info("S%d: %s -- cost: %.3f" % (j, self._get_set_by_index(j), self.c[j]))
+		# for j in range(self.n):
+		# 	print "S%d: %s -- cost: %.3f" % (j, self._get_set_by_index(j), self.c[j])
+		# 	logging.info("S%d: %s -- cost: %.3f" % (j, self._get_set_by_index(j), self.c[j]))
 		print "# solution: "
 		logging.info("# solution: ")
 
-		for sj in self.S:
-			print "S%d: %s" % (sj, self._get_set_by_index(sj))
-			logging.info("S%d: %s" % (sj, self._get_set_by_index(sj)))
+		# for sj in self.S:
+			# print "S%d: %s" % (sj, self._get_set_by_index(sj))
+			# logging.info("S%d: %s" % (sj, self._get_set_by_index(sj)))
 		print "Total cost: %.3f" % (self.total_cost)
 		logging.info("Total cost: %.3f" % (self.total_cost))

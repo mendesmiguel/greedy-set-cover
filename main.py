@@ -62,8 +62,8 @@ if __name__ == "__main__":
 	A, c = fh.process()
 
 
-	s = Solver(A, c, "4_1-2")
-	s.solve(0.005, 50000)
+	s = Solver(A, c, "reactive_test")
+	s.solve(N=1000, limit=20)
 	s.print_solution()
-	print "solution as sets: {0}".format(s.get_solution_as_sets())
+	# print "solution as sets: {0}".format(s.get_solution_as_sets())
 	# print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
