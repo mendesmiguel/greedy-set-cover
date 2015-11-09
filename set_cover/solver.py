@@ -20,6 +20,8 @@ class Solver(object):
 	def solve(self, alpha, N):
 		best_sol = np.ones(self.n, dtype=bool)
 		logging.info("A shape: {0}".format(self.A.shape))
+		logging.info("N iterations: {0}".format(N))
+		logging.info("alpha: {0}".format(alpha))
 		logging.info("RCL length: {0}".format(len(self._get_rcl(alpha))))
 		for i in range(N):
 			self.A_copy = self.A.copy()
