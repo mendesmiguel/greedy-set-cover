@@ -3,21 +3,46 @@ import random
 import logging
 
 class Solver(object):
-
-	def __init__(self, A, c, problem_name):
-		logging.basicConfig(filename=problem_name+'.log',
-							level=logging.DEBUG,
-							format='%(asctime)s %(message)s', 
-							datefmt='%m/%d/%Y %I:%M:%S %p')
-		self.A_copy = A.copy()
+	def __init__(self, A, c, problem_name, search_strategy):
 		self.A = A
 		self.c = c
+		self.m, self.n = self.A.shape
+		self.problem_name = problem_name
+		self.search_strategy = search_strategy
+		self.S = None
+		self.search_strategy.set_up(A, c, problem_name)
+
+	def solve(self):
+		self.search_strategy.solve()
+
+	def print_solution(self):
+		self.search_strategy.print_solution()
+	def print_total_cost(self):
+		print self.search_strategy.get_total_cost()
+
+class LocalSearch(object):
+
+	def __init__(self, alpha, N):
+		self.alpha = alpha
+		self.N = N
+
+	def set_up(self, A, c, problem_name):
+		self.A = A
+		self.c = c
+		self.A_copy = A.copy()
 		self.c_copy = c.copy()
 		self.m, self.n = self.A_copy.shape
 		self.total_cost = 0
 		self.S = None
+		logging.basicConfig(filename=problem_name+'.log',
+							level=logging.DEBUG,
+							format='%(asctime)s %(message)s', 
+							datefmt='%m/%d/%Y %I:%M:%S %p')
 
-	def solve(self, alpha, N):
+	def solve(self):
+		alpha = self.alpha
+		N = self.N
+
 		best_sol = np.ones(self.n, dtype=bool)
 		logging.info("A shape: {0}".format(self.A.shape))
 		logging.info("N iterations: {0}".format(N))
