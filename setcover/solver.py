@@ -20,11 +20,19 @@ class Solver(object):
 	def print_total_cost(self):
 		print self.search_strategy.get_total_cost()
 
-class LocalSearch(object):
+class AbstractSearchStrategy(object):
+	def _greedy_randomized_construction(self, alpha):
+		solution = np.zeros(self.n, dtype=bool)
 
-	def __init__(self, alpha, N):
-		self.alpha = alpha
-		self.N = N
+		A = self.A.copy()
+		while not self._is_feasible(solution, A):
+			rcl = self._get_rcl(alpha)
+			v = self._get_candidate(rcl)
+			solution[v] = True
+			self.c_copy[v] = 0
+			self._remove_intersection(v)
+		return solution
+
 
 	def set_up(self, A, c, problem_name):
 		self.A = A
@@ -38,62 +46,6 @@ class LocalSearch(object):
 							level=logging.DEBUG,
 							format='%(asctime)s %(message)s', 
 							datefmt='%m/%d/%Y %I:%M:%S %p')
-
-	def solve(self):
-		alpha = self.alpha
-		N = self.N
-
-		best_sol = np.ones(self.n, dtype=bool)
-		logging.info("A shape: {0}".format(self.A.shape))
-		logging.info("N iterations: {0}".format(N))
-		logging.info("alpha: {0}".format(alpha))
-		logging.info("RCL length: {0}".format(len(self._get_rcl(alpha))))
-		for i in range(N):
-			self.A_copy = self.A.copy()
-			self.c_copy = self.c.copy()
-			logging.info("iteration {0}:".format(i))
-			solution = self._greedy_randomized_construction(alpha)
-			logging.info("greedy construction generated solution with cost: {0}".format(self._get_cost(solution)))
-			solution = self._local_search(solution)
-
-			if self._get_cost(solution) < self._get_cost(best_sol): 
-				best_sol = solution
-			logging.info("best solution so far has cost:: {0}".format(self._get_cost(best_sol)))
-		self.S = np.where(best_sol == True)[0].tolist()
-		self.total_cost = self._get_cost(best_sol)
-
-	def _local_search(self, sol):
-		best_sol_cost = self._get_cost(sol)
-		best_sol = sol.copy()
-
-		for i in range(len(sol)):
-			sol_copy = sol.copy()
-			sol_copy[i] = not sol_copy[i]
-			A = self.A.copy()
-
-			if self._is_feasible(sol_copy, A):
-				cost = self._get_cost(sol_copy)
-				if cost < best_sol_cost:
-					logging.info("local search produced solution with cost: {0}".format(cost))
-					best_sol_cost = cost
-					best_sol = sol_copy
-		return best_sol
-
-	def _ls_helper(self, solution, A):
-		idx = np.where(solution == True)[0]
-		A[:, idx] = 0
-
-	def _greedy_randomized_construction(self, alpha):
-		solution = np.zeros(self.n, dtype=bool)
-
-		A = self.A.copy()
-		while not self._is_feasible(solution, A):
-			rcl = self._get_rcl(alpha)
-			v = self._get_candidate(rcl)
-			solution[v] = True
-			self.c_copy[v] = 0
-			self._remove_intersection(v)
-		return solution
 
 	def _get_rcl(self, alpha):
 		card = np.sum(self.A_copy, axis=0).astype(float)
@@ -154,3 +106,55 @@ class LocalSearch(object):
 			logging.info("S%d: %s" % (sj, self._get_set_by_index(sj)))
 		print "Total cost: %.3f" % (self.total_cost)
 		logging.info("Total cost: %.3f" % (self.total_cost))
+
+class LocalSearch(AbstractSearchStrategy):
+
+	def __init__(self, alpha, N):
+		self.alpha = alpha
+		self.N = N
+
+
+	def solve(self):
+		alpha = self.alpha
+		N = self.N
+
+		best_sol = np.ones(self.n, dtype=bool)
+		logging.info("A shape: {0}".format(self.A.shape))
+		logging.info("N iterations: {0}".format(N))
+		logging.info("alpha: {0}".format(alpha))
+		logging.info("RCL length: {0}".format(len(self._get_rcl(alpha))))
+		for i in range(N):
+			self.A_copy = self.A.copy()
+			self.c_copy = self.c.copy()
+			logging.info("iteration {0}:".format(i))
+			solution = self._greedy_randomized_construction(alpha)
+			logging.info("greedy construction generated solution with cost: {0}".format(self._get_cost(solution)))
+			solution = self._local_search(solution)
+
+			if self._get_cost(solution) < self._get_cost(best_sol): 
+				best_sol = solution
+			logging.info("best solution so far has cost:: {0}".format(self._get_cost(best_sol)))
+		self.S = np.where(best_sol == True)[0].tolist()
+		self.total_cost = self._get_cost(best_sol)
+
+	def _local_search(self, sol):
+		best_sol_cost = self._get_cost(sol)
+		best_sol = sol.copy()
+
+		for i in range(len(sol)):
+			sol_copy = sol.copy()
+			sol_copy[i] = not sol_copy[i]
+			A = self.A.copy()
+
+			if self._is_feasible(sol_copy, A):
+				cost = self._get_cost(sol_copy)
+				if cost < best_sol_cost:
+					logging.info("local search produced solution with cost: {0}".format(cost))
+					best_sol_cost = cost
+					best_sol = sol_copy
+		return best_sol
+
+	def _ls_helper(self, solution, A):
+		idx = np.where(solution == True)[0]
+		A[:, idx] = 0
+
