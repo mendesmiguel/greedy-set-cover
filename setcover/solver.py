@@ -1,26 +1,30 @@
 import numpy as np
 import random
 import logging
+import abc
 
-class Solver(object):
-    def __init__(self, A, c, problem_name, search_strategy):
+class AbstractSolver(object):
+    __metaclass__ = abc.ABCMeta
+    def __init__(self, A, c, problem_name, alpha, N):
         self.A = A
         self.c = c
-        self.m, self.n = self.A.shape
-        self.problem_name = problem_name
-        self.search_strategy = search_strategy
+        self.A_copy = A.copy()
+        self.c_copy = c.copy()
+        self.m, self.n = self.A_copy.shape
+        self.total_cost = 0
         self.S = None
-        self.search_strategy.set_up(A, c, problem_name)
+        self.problem_name = problem_name
+        self.alpha = alpha
+        self.N = N
+        logging.basicConfig(filename=problem_name+'.log',
+                            level=logging.DEBUG,
+                            format='%(asctime)s %(message)s', 
+                            datefmt='%m/%d/%Y %I:%M:%S %p')
 
+    @abc.abstractmethod
     def solve(self):
-        self.search_strategy.solve()
+         raise NotImplemented('AbstractSolver cannot be instantiated')
 
-    def print_solution(self):
-        self.search_strategy.print_solution()
-    def print_total_cost(self):
-        print self.search_strategy.get_total_cost()
-
-class AbstractSearchStrategy(object):
     def _greedy_randomized_construction(self, alpha):
         solution = np.zeros(self.n, dtype=bool)
 
@@ -32,20 +36,6 @@ class AbstractSearchStrategy(object):
             self.c_copy[v] = 0
             self._remove_intersection(v)
         return solution
-
-
-    def set_up(self, A, c, problem_name):
-        self.A = A
-        self.c = c
-        self.A_copy = A.copy()
-        self.c_copy = c.copy()
-        self.m, self.n = self.A_copy.shape
-        self.total_cost = 0
-        self.S = None
-        logging.basicConfig(filename=problem_name+'.log',
-                            level=logging.DEBUG,
-                            format='%(asctime)s %(message)s', 
-                            datefmt='%m/%d/%Y %I:%M:%S %p')
 
     def _get_rcl(self, alpha):
         card = np.sum(self.A_copy, axis=0).astype(float)
@@ -92,6 +82,9 @@ class AbstractSearchStrategy(object):
         pj = np.nonzero(self.A[:, j] > 0)[0].tolist()
         return pj
 
+    def print_total_cost(self):
+        print self.get_total_cost()
+
     def print_solution(self):
         print "# original sets: "
 
@@ -107,11 +100,10 @@ class AbstractSearchStrategy(object):
         print "Total cost: %.3f" % (self.total_cost)
         logging.info("Total cost: %.3f" % (self.total_cost))
 
-class LocalSearch(AbstractSearchStrategy):
 
-    def __init__(self, alpha, N):
-        self.alpha = alpha
-        self.N = N
+    
+
+class LocalSearchSolver(AbstractSolver):
 
     def solve(self):
         alpha = self.alpha
@@ -158,10 +150,7 @@ class LocalSearch(AbstractSearchStrategy):
         A[:, idx] = 0
 
 
-class TabuSearch(AbstractSearchStrategy):
-    def __init__(self, alpha, N):
-        self.alpha = alpha
-        self.N = N
+class TabuSearchSolver(AbstractSolver):
 
     def solve(self):
         alpha = self.alpha
