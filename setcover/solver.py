@@ -44,6 +44,18 @@ class AbstractSolver(object):
         n = self.A_copy.shape[1]
         return np.argsort(factor)[::-1][:alpha * n + 1]
 
+
+    def _get_best_neighbor(self, s):
+        A = self.A.copy()
+        best_s = s.copy()
+        for i in range(len(s)):
+            s_candidate = s.copy()
+            s_candidate[i] = not s_candidate[i]
+
+            if self._is_feasible(s_candidate, A) and self._get_cost(s_candidate) < self._get_cost(best_s):
+                best_s = s_candidate.copy()
+        return best_s
+
     def _get_candidate(self, rlc):
         return random.choice(rlc)
 
@@ -204,13 +216,55 @@ class TabuSearchSolver(AbstractSolver):
                 logging.info("tabu search found a better solution with cost: {0}".format(self._get_cost(s_best)))
         return s_best
 
-    def _get_best_neighbor(self, s):
-        A = self.A.copy()
-        best_s = s.copy()
-        for i in range(len(s)):
-            s_candidate = s.copy()
-            s_candidate[i] = not s_candidate[i]
+class VNDSolver(AbstractSolver):
+    def solve(self):
+        alpha = self.alpha
+        N = self.N
 
-            if self._is_feasible(s_candidate, A) and self._get_cost(s_candidate) < self._get_cost(best_s):
-                best_s = s_candidate.copy()
+        best_sol = np.ones(self.n, dtype=bool)
+        logging.info("A shape: {0}".format(self.A.shape))
+        logging.info("N iterations: {0}".format(N))
+        logging.info("alpha: {0}".format(alpha))
+        logging.info("RCL length: {0}".format(len(self._get_rcl(alpha))))
+        for i in range(N):
+            self.A_copy = self.A.copy()
+            self.c_copy = self.c.copy()
+            logging.info("iteration {0}:".format(i))
+            solution = self._greedy_randomized_construction(alpha)
+            logging.info("greedy construction generated solution with cost: {0}".format(self._get_cost(solution)))
+            solution = self._vnd(solution)
+            logging.info("VND search generated solution with cost: {0}".format(self._get_cost(solution)))
+
+            if self._get_cost(solution) < self._get_cost(best_sol): 
+                best_sol = solution
+            logging.info("best solution so far has cost:: {0}".format(self._get_cost(best_sol)))
+        self.S = np.where(best_sol == True)[0].tolist()
+        self.total_cost = self._get_cost(best_sol)
+
+    def _vnd(self, sol):
+        logging.info("VND called")
+        best_s = sol.copy()
+        k = 0
+        r = len(sol)
+        A = self.A.copy()
+        solutions = []
+        while k < r:
+            # logging.info("exploring k {0} neighborhood".format(k))
+            s_cand = best_s.copy()
+            s_cand[k] = not s_cand[k]
+            if any((s_cand == e).all() for e in solutions):
+                logging.info("solution already explored")
+                k = k + 1
+                continue
+            s_cand = self._get_best_neighbor(s_cand)
+            solutions.append(s_cand)
+            if self._is_feasible(s_cand, A) and self._get_cost(s_cand) < self._get_cost(best_s):
+                logging.info("VND found a better solution with cost: {0}".format(self._get_cost(s_cand)))
+                best_s = s_cand.copy()
+                k = 0
+            else:
+                k = k + 1
         return best_s
+
+
+

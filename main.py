@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from setcover.solver import LocalSearchSolver, TabuSearchSolver
+from setcover.solver import LocalSearchSolver, TabuSearchSolver, VNDSolver
 from filehandler.handler import FileHandler
 import numpy as np
 import sys
