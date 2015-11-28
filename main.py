@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from setcover.solver import LocalSearchSolver, TabuSearchSolver, VNDSolver
+from setcover.solver import GRASPSolver, LocalSearch, TabuSearch, VNDSearch
 from filehandler.handler import FileHandler
 import numpy as np
 import sys
@@ -69,7 +69,7 @@ if __name__ == "__main__":
         dataset, logfile, alpha, N = sys.argv[1:]
         fh = FileHandler(dataset)
         A, c = fh.process()
-        s = TabuSearchSolver(A, c, logfile, float(alpha), int(N))
+        s = GRASPSolver(A, c, logfile, float(alpha), int(N), VNDSearch)
         s.solve()
         s.print_total_cost()
         # print "solution as sets: {0}".format(s.get_solution_as_sets())
