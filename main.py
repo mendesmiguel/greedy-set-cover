@@ -69,7 +69,7 @@ if __name__ == "__main__":
         dataset, logfile, alpha, N = sys.argv[1:]
         fh = FileHandler(dataset)
         A, c = fh.process()
-        s = GRASPSolver(A, c, logfile, float(alpha), int(N), TabuSearch)
+        s = GRASPSolver(A, c, "logs/" + logfile, float(alpha), int(N), TabuSearch)
         s.solve()
         s.print_total_cost()
         # print "solution as sets: {0}".format(s.get_solution_as_sets())
