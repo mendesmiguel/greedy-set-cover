@@ -2,6 +2,12 @@ import numpy as np
 import random
 import logging
 import abc
+import signal
+class TimeoutException(Exception):   # Custom exception class
+    pass
+
+def TimeoutHandler(signum, frame):   # Custom signal handler
+    raise TimeoutException
 
 class GRASPSolver(object):
     def __init__(self, A, c, problem_name, alpha, N, SearchStrategy):
@@ -15,6 +21,7 @@ class GRASPSolver(object):
         self.problem_name = problem_name
         self.alpha = alpha
         self.N = N
+        self.best_sol = np.zeros(self.n, dtype=bool)
         self.search_strategy = SearchStrategy(self)
         logging.basicConfig(filename=problem_name+'.log',
                             level=logging.DEBUG,
@@ -30,19 +37,31 @@ class GRASPSolver(object):
             logging.info("N iterations: {0}".format(N))
             logging.info("alpha: {0}".format(alpha))
             logging.info("RCL length: {0}".format(len(self._get_rcl(alpha))))
-            for i in range(N):
-                self.A_copy = self.A.copy()
-                self.c_copy = self.c.copy()
-                logging.info("iteration {0}:".format(i))
-                solution = self._greedy_randomized_construction(alpha)
-                logging.info("greedy construction generated solution with cost: {0}".format(self.get_cost(solution)))
-                solution = self.search_strategy.search(solution)
+            i = 0
+            signal.signal(signal.SIGALRM,TimeoutHandler)
+            signal.alarm(N)
+            logging.info("solver will stop after {0} seconds".format(N))
 
-                if self.get_cost(solution) < self.get_cost(best_sol): 
-                    best_sol = solution
-                logging.info("best solution so far has cost:: {0}".format(self.get_cost(best_sol)))
-            self.S = np.where(best_sol == True)[0].tolist()
-            self.total_cost = self.get_cost(best_sol)
+            try:    
+                while True:
+                # for i in range(N):
+                    self.A_copy = self.A.copy()
+                    self.c_copy = self.c.copy()
+                    logging.info("iteration {0}:".format(i))
+                    solution = self._greedy_randomized_construction(alpha)
+                    logging.info("greedy construction generated solution with cost: {0}".format(self.get_cost(solution)))
+                    solution = self.search_strategy.search(solution)
+
+                    if self.get_cost(solution) < self.get_cost(best_sol): 
+                        best_sol = solution
+                        self.best_sol = solution.copy()
+                    logging.info("best solution so far has cost:: {0}".format(self.get_cost(best_sol)))
+                    i += 1
+            except TimeoutException:
+                self.S = np.where(self.best_sol == True)[0].tolist()
+                self.total_cost = self.get_cost(self.best_sol)
+                logging.info("solver completed")
+            logging.info("best solution found has cost: {0}".format(self.total_cost))
 
     def _greedy_randomized_construction(self, alpha):
         solution = np.zeros(self.n, dtype=bool)
@@ -153,6 +172,7 @@ class LocalSearch(AbstractSearch):
                 cost = self.solver.get_cost(sol_copy)
                 if cost < best_sol_cost:
                     logging.info("local search produced solution with cost: {0}".format(cost))
+                    self.solver.best_sol = sol_copy
                     best_sol_cost = cost
                     best_sol = sol_copy
         return best_sol
@@ -183,6 +203,7 @@ class TabuSearch(AbstractSearch):
             if self.solver.get_cost(s) < self.solver.get_cost(s_best):
                 s_best = s.copy()
                 best_it = it
+                self.solver.best_sol = s_best.copy()
                 logging.info("tabu search found a better solution with cost: {0}".format(self.solver.get_cost(s_best)))
         return s_best
 
@@ -206,6 +227,7 @@ class VNDSearch(AbstractSearch):
             s_cand = self._get_best_neighbor(s_cand)
             solutions.append(s_cand)
             if self.solver.is_feasible(s_cand, A) and self.solver.get_cost(s_cand) < self.solver.get_cost(best_s):
+                self.solver.best_sol = s_cand.copy()
                 logging.info("VND found a better solution with cost: {0}".format(self.solver.get_cost(s_cand)))
                 best_s = s_cand.copy()
                 k = 0
