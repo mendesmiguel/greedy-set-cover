@@ -61,15 +61,15 @@ if __name__ == "__main__":
     # c = np.array([6, 15, 7]).astype(float)
 
     total = len(sys.argv)
-    if total != 5:
-        print "Usage: ./main.py [dataset] [logfilename] [alpha] [num of iterations]" 
+    if total != 6:
+        print "Usage: ./main.py [dataset] [logfilename] [alpha] [num of seconds] [search strategy]" 
         # print "Given: ", sys.argv
     else:
         # print "Given: ", sys.argv
-        dataset, logfile, alpha, N = sys.argv[1:]
+        dataset, logfile, alpha, N, SearchStrategy = sys.argv[1:]
         fh = FileHandler(dataset)
         A, c = fh.process()
-        s = GRASPSolver(A, c, "logs/" + logfile, float(alpha), int(N), TabuSearch)
+        s = GRASPSolver(A, c, "logs/" + logfile, float(alpha), int(N), eval(SearchStrategy))
         s.solve()
         s.print_total_cost()
         # print "solution as sets: {0}".format(s.get_solution_as_sets())

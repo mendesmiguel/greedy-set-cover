@@ -21,7 +21,7 @@ class GRASPSolver(object):
         self.problem_name = problem_name
         self.alpha = alpha
         self.N = N
-        self.best_sol = np.zeros(self.n, dtype=bool)
+        self.best_sol = None
         self.search_strategy = SearchStrategy(self)
         logging.basicConfig(filename=problem_name+'.log',
                             level=logging.DEBUG,
@@ -50,11 +50,12 @@ class GRASPSolver(object):
                     logging.info("iteration {0}:".format(i))
                     solution = self._greedy_randomized_construction(alpha)
                     logging.info("greedy construction generated solution with cost: {0}".format(self.get_cost(solution)))
+                    self.update_solution(solution)
                     solution = self.search_strategy.search(solution)
 
                     if self.get_cost(solution) < self.get_cost(best_sol): 
                         best_sol = solution
-                        self.best_sol = solution.copy()
+                        self.update_solution(solution)
                     logging.info("best solution so far has cost:: {0}".format(self.get_cost(best_sol)))
                     i += 1
             except TimeoutException:
@@ -79,6 +80,12 @@ class GRASPSolver(object):
         idx = np.where(solution == True)[0]
         res = np.sum(A[:, idx], axis=1)
         return not (0 in res)
+
+    def update_solution(self, new_sol):
+        if self.best_sol is None or self.get_cost(new_sol) < self.get_cost(self.best_sol):
+            logging.info("best solution found updated has cost of {0}".format(self.get_cost(new_sol)))
+            logging.info("the old solution had cost of {0}".format(self.get_cost(self.best_sol)))
+            self.best_sol = new_sol.copy()
 
     def _get_rcl(self, alpha):
         card = np.sum(self.A_copy, axis=0).astype(float)
@@ -172,7 +179,7 @@ class LocalSearch(AbstractSearch):
                 cost = self.solver.get_cost(sol_copy)
                 if cost < best_sol_cost:
                     logging.info("local search produced solution with cost: {0}".format(cost))
-                    self.solver.best_sol = sol_copy
+                    self.solver.update_solution(sol_copy)
                     best_sol_cost = cost
                     best_sol = sol_copy
         return best_sol
@@ -203,7 +210,7 @@ class TabuSearch(AbstractSearch):
             if self.solver.get_cost(s) < self.solver.get_cost(s_best):
                 s_best = s.copy()
                 best_it = it
-                self.solver.best_sol = s_best.copy()
+                self.solver.update_solution(s_best)
                 logging.info("tabu search found a better solution with cost: {0}".format(self.solver.get_cost(s_best)))
         return s_best
 
@@ -227,7 +234,7 @@ class VNDSearch(AbstractSearch):
             s_cand = self._get_best_neighbor(s_cand)
             solutions.append(s_cand)
             if self.solver.is_feasible(s_cand, A) and self.solver.get_cost(s_cand) < self.solver.get_cost(best_s):
-                self.solver.best_sol = s_cand.copy()
+                self.solver.update_solution(s_cand)
                 logging.info("VND found a better solution with cost: {0}".format(self.solver.get_cost(s_cand)))
                 best_s = s_cand.copy()
                 k = 0
