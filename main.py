@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from setcover.solver import GRASPSolver, LocalSearch, TabuSearch, VNDSearch
+from setcover.solver import GRASPSolver, LocalSearch, TabuSearch, VNDSearch, GreedySolver
 from filehandler.handler import FileHandler
 import numpy as np
 import sys
@@ -69,8 +69,8 @@ if __name__ == "__main__":
         dataset, logfile, alpha, N, SearchStrategy = sys.argv[1:]
         fh = FileHandler(dataset)
         A, c = fh.process()
-        s = GRASPSolver(A, c, "logs/" + logfile, float(alpha), int(N), eval(SearchStrategy))
+        s = GreedySolver(A, c, "logs/" + logfile)
         s.solve()
-        s.print_total_cost()
+        s.print_solution()
         # print "solution as sets: {0}".format(s.get_solution_as_sets())
     # print "solution as matrix A: {0}".format(s.get_solution_as_matrix())
