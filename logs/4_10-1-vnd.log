@@ -1,0 +1,48 @@
+12/05/2015 10:07:57 AM A shape: (200, 1000)
+12/05/2015 10:07:57 AM N iterations: 120
+12/05/2015 10:07:57 AM alpha: 0.003
+12/05/2015 10:07:57 AM RCL length: 4
+12/05/2015 10:07:57 AM solver will stop after 120 seconds
+12/05/2015 10:07:57 AM iteration 0:
+12/05/2015 10:07:58 AM greedy construction generated solution with cost: 560.0
+12/05/2015 10:07:58 AM best solution found updated has cost of 560.0
+12/05/2015 10:07:58 AM the old solution had cost of 49921.0
+12/05/2015 10:07:58 AM VND called
+12/05/2015 10:07:58 AM best solution found updated has cost of 554.0
+12/05/2015 10:07:58 AM the old solution had cost of 560.0
+12/05/2015 10:07:58 AM VND found a better solution with cost: 554.0
+12/05/2015 10:07:59 AM best solution found updated has cost of 551.0
+12/05/2015 10:07:59 AM the old solution had cost of 554.0
+12/05/2015 10:07:59 AM VND found a better solution with cost: 551.0
+12/05/2015 10:08:00 AM best solution found updated has cost of 546.0
+12/05/2015 10:08:00 AM the old solution had cost of 551.0
+12/05/2015 10:08:00 AM VND found a better solution with cost: 546.0
+12/05/2015 10:08:01 AM best solution found updated has cost of 544.0
+12/05/2015 10:08:01 AM the old solution had cost of 546.0
+12/05/2015 10:08:01 AM VND found a better solution with cost: 544.0
+12/05/2015 10:08:01 AM best solution found updated has cost of 541.0
+12/05/2015 10:08:01 AM the old solution had cost of 544.0
+12/05/2015 10:08:01 AM VND found a better solution with cost: 541.0
+12/05/2015 10:08:02 AM best solution found updated has cost of 540.0
+12/05/2015 10:08:02 AM the old solution had cost of 541.0
+12/05/2015 10:08:02 AM VND found a better solution with cost: 540.0
+12/05/2015 10:08:03 AM best solution found updated has cost of 539.0
+12/05/2015 10:08:03 AM the old solution had cost of 540.0
+12/05/2015 10:08:03 AM VND found a better solution with cost: 539.0
+12/05/2015 10:08:03 AM solution already explored
+12/05/2015 10:08:05 AM solution already explored
+12/05/2015 10:08:06 AM best solution found updated has cost of 537.0
+12/05/2015 10:08:06 AM the old solution had cost of 539.0
+12/05/2015 10:08:06 AM VND found a better solution with cost: 537.0
+12/05/2015 10:08:12 AM best solution found updated has cost of 533.0
+12/05/2015 10:08:12 AM the old solution had cost of 537.0
+12/05/2015 10:08:12 AM VND found a better solution with cost: 533.0
+12/05/2015 10:08:19 AM best solution found updated has cost of 531.0
+12/05/2015 10:08:19 AM the old solution had cost of 533.0
+12/05/2015 10:08:19 AM VND found a better solution with cost: 531.0
+12/05/2015 10:08:19 AM best solution found updated has cost of 530.0
+12/05/2015 10:08:19 AM the old solution had cost of 531.0
+12/05/2015 10:08:19 AM VND found a better solution with cost: 530.0
+12/05/2015 10:08:19 AM solution already explored
+12/05/2015 10:09:57 AM solver completed
+12/05/2015 10:09:57 AM best solution found has cost: 530.0

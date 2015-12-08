@@ -1,0 +1,590 @@
+12/06/2015 07:27:47 PM A shape: (200, 1000)
+12/06/2015 07:27:47 PM N iterations: 3600
+12/06/2015 07:27:47 PM alpha: 0.01
+12/06/2015 07:27:47 PM RCL length: 11
+12/06/2015 07:27:47 PM solver will stop after 3600 seconds
+12/06/2015 07:27:47 PM iteration 0:
+12/06/2015 07:27:47 PM greedy construction generated solution with cost: 558.0
+12/06/2015 07:27:47 PM best solution found updated has cost of 558.0
+12/06/2015 07:27:47 PM the old solution had cost of 50050.0
+12/06/2015 07:27:47 PM VND called
+12/06/2015 07:27:48 PM best solution found updated has cost of 545.0
+12/06/2015 07:27:48 PM the old solution had cost of 558.0
+12/06/2015 07:27:48 PM VND found a better solution with cost: 545.0
+12/06/2015 07:27:48 PM best solution found updated has cost of 541.0
+12/06/2015 07:27:48 PM the old solution had cost of 545.0
+12/06/2015 07:27:48 PM VND found a better solution with cost: 541.0
+12/06/2015 07:27:48 PM best solution found updated has cost of 535.0
+12/06/2015 07:27:48 PM the old solution had cost of 541.0
+12/06/2015 07:27:48 PM VND found a better solution with cost: 535.0
+12/06/2015 07:27:49 PM best solution found updated has cost of 533.0
+12/06/2015 07:27:49 PM the old solution had cost of 535.0
+12/06/2015 07:27:49 PM VND found a better solution with cost: 533.0
+12/06/2015 07:27:49 PM best solution found updated has cost of 529.0
+12/06/2015 07:27:49 PM the old solution had cost of 533.0
+12/06/2015 07:27:49 PM VND found a better solution with cost: 529.0
+12/06/2015 07:27:49 PM best solution found updated has cost of 527.0
+12/06/2015 07:27:49 PM the old solution had cost of 529.0
+12/06/2015 07:27:49 PM VND found a better solution with cost: 527.0
+12/06/2015 07:27:50 PM best solution found updated has cost of 523.0
+12/06/2015 07:27:50 PM the old solution had cost of 527.0
+12/06/2015 07:27:50 PM VND found a better solution with cost: 523.0
+12/06/2015 07:27:50 PM best solution found updated has cost of 521.0
+12/06/2015 07:27:50 PM the old solution had cost of 523.0
+12/06/2015 07:27:50 PM VND found a better solution with cost: 521.0
+12/06/2015 07:27:50 PM best solution found updated has cost of 517.0
+12/06/2015 07:27:50 PM the old solution had cost of 521.0
+12/06/2015 07:27:50 PM VND found a better solution with cost: 517.0
+12/06/2015 07:27:51 PM best solution found updated has cost of 515.0
+12/06/2015 07:27:51 PM the old solution had cost of 517.0
+12/06/2015 07:27:51 PM VND found a better solution with cost: 515.0
+12/06/2015 07:27:52 PM best solution found updated has cost of 512.0
+12/06/2015 07:27:52 PM the old solution had cost of 515.0
+12/06/2015 07:27:52 PM VND found a better solution with cost: 512.0
+12/06/2015 07:27:52 PM best solution found updated has cost of 511.0
+12/06/2015 07:27:52 PM the old solution had cost of 512.0
+12/06/2015 07:27:52 PM VND found a better solution with cost: 511.0
+12/06/2015 07:27:53 PM best solution found updated has cost of 508.0
+12/06/2015 07:27:53 PM the old solution had cost of 511.0
+12/06/2015 07:27:53 PM VND found a better solution with cost: 508.0
+12/06/2015 07:27:53 PM best solution found updated has cost of 507.0
+12/06/2015 07:27:53 PM the old solution had cost of 508.0
+12/06/2015 07:27:53 PM VND found a better solution with cost: 507.0
+12/06/2015 07:27:54 PM solution already explored
+12/06/2015 07:27:57 PM best solution found updated has cost of 506.0
+12/06/2015 07:27:57 PM the old solution had cost of 507.0
+12/06/2015 07:27:57 PM VND found a better solution with cost: 506.0
+12/06/2015 07:28:04 PM best solution found updated has cost of 491.0
+12/06/2015 07:28:04 PM the old solution had cost of 506.0
+12/06/2015 07:28:04 PM VND found a better solution with cost: 491.0
+12/06/2015 07:28:18 PM best solution found updated has cost of 490.0
+12/06/2015 07:28:18 PM the old solution had cost of 491.0
+12/06/2015 07:28:18 PM VND found a better solution with cost: 490.0
+12/06/2015 07:28:37 PM best solution found updated has cost of 477.0
+12/06/2015 07:28:37 PM the old solution had cost of 490.0
+12/06/2015 07:28:37 PM VND found a better solution with cost: 477.0
+12/06/2015 07:30:26 PM best solution so far has cost:: 477.0
+12/06/2015 07:30:26 PM iteration 1:
+12/06/2015 07:30:26 PM greedy construction generated solution with cost: 611.0
+12/06/2015 07:30:26 PM VND called
+12/06/2015 07:30:27 PM VND found a better solution with cost: 598.0
+12/06/2015 07:30:27 PM VND found a better solution with cost: 587.0
+12/06/2015 07:30:27 PM VND found a better solution with cost: 581.0
+12/06/2015 07:30:28 PM VND found a better solution with cost: 578.0
+12/06/2015 07:30:28 PM VND found a better solution with cost: 573.0
+12/06/2015 07:30:28 PM VND found a better solution with cost: 570.0
+12/06/2015 07:30:29 PM VND found a better solution with cost: 566.0
+12/06/2015 07:30:29 PM VND found a better solution with cost: 564.0
+12/06/2015 07:30:29 PM VND found a better solution with cost: 561.0
+12/06/2015 07:30:30 PM VND found a better solution with cost: 560.0
+12/06/2015 07:30:30 PM VND found a better solution with cost: 558.0
+12/06/2015 07:30:32 PM VND found a better solution with cost: 557.0
+12/06/2015 07:30:32 PM VND found a better solution with cost: 555.0
+12/06/2015 07:30:32 PM VND found a better solution with cost: 554.0
+12/06/2015 07:30:32 PM solution already explored
+12/06/2015 07:30:35 PM solution already explored
+12/06/2015 07:30:37 PM VND found a better solution with cost: 549.0
+12/06/2015 07:30:44 PM VND found a better solution with cost: 548.0
+12/06/2015 07:30:52 PM VND found a better solution with cost: 541.0
+12/06/2015 07:31:00 PM VND found a better solution with cost: 535.0
+12/06/2015 07:31:02 PM VND found a better solution with cost: 534.0
+12/06/2015 07:31:21 PM VND found a better solution with cost: 528.0
+12/06/2015 07:33:17 PM best solution so far has cost:: 477.0
+12/06/2015 07:33:17 PM iteration 2:
+12/06/2015 07:33:17 PM greedy construction generated solution with cost: 562.0
+12/06/2015 07:33:17 PM VND called
+12/06/2015 07:33:18 PM VND found a better solution with cost: 549.0
+12/06/2015 07:33:18 PM VND found a better solution with cost: 543.0
+12/06/2015 07:33:18 PM VND found a better solution with cost: 537.0
+12/06/2015 07:33:19 PM VND found a better solution with cost: 535.0
+12/06/2015 07:33:19 PM VND found a better solution with cost: 531.0
+12/06/2015 07:33:20 PM VND found a better solution with cost: 529.0
+12/06/2015 07:33:20 PM VND found a better solution with cost: 526.0
+12/06/2015 07:33:20 PM VND found a better solution with cost: 525.0
+12/06/2015 07:33:21 PM VND found a better solution with cost: 523.0
+12/06/2015 07:33:22 PM VND found a better solution with cost: 522.0
+12/06/2015 07:33:22 PM VND found a better solution with cost: 520.0
+12/06/2015 07:33:23 PM VND found a better solution with cost: 519.0
+12/06/2015 07:33:23 PM solution already explored
+12/06/2015 07:33:27 PM solution already explored
+12/06/2015 07:33:27 PM VND found a better solution with cost: 514.0
+12/06/2015 07:33:31 PM VND found a better solution with cost: 512.0
+12/06/2015 07:33:35 PM VND found a better solution with cost: 509.0
+12/06/2015 07:33:43 PM VND found a better solution with cost: 504.0
+12/06/2015 07:33:54 PM VND found a better solution with cost: 481.0
+12/06/2015 07:34:06 PM VND found a better solution with cost: 479.0
+12/06/2015 07:36:07 PM best solution so far has cost:: 477.0
+12/06/2015 07:36:07 PM iteration 3:
+12/06/2015 07:36:07 PM greedy construction generated solution with cost: 547.0
+12/06/2015 07:36:07 PM VND called
+12/06/2015 07:36:07 PM VND found a better solution with cost: 538.0
+12/06/2015 07:36:08 PM VND found a better solution with cost: 534.0
+12/06/2015 07:36:08 PM VND found a better solution with cost: 529.0
+12/06/2015 07:36:09 PM VND found a better solution with cost: 527.0
+12/06/2015 07:36:09 PM VND found a better solution with cost: 523.0
+12/06/2015 07:36:10 PM VND found a better solution with cost: 521.0
+12/06/2015 07:36:10 PM VND found a better solution with cost: 518.0
+12/06/2015 07:36:10 PM VND found a better solution with cost: 517.0
+12/06/2015 07:36:11 PM VND found a better solution with cost: 514.0
+12/06/2015 07:36:11 PM VND found a better solution with cost: 513.0
+12/06/2015 07:36:11 PM VND found a better solution with cost: 512.0
+12/06/2015 07:36:12 PM solution already explored
+12/06/2015 07:36:14 PM solution already explored
+12/06/2015 07:36:17 PM VND found a better solution with cost: 496.0
+12/06/2015 07:36:17 PM VND found a better solution with cost: 491.0
+12/06/2015 07:36:18 PM VND found a better solution with cost: 488.0
+12/06/2015 07:36:25 PM VND found a better solution with cost: 483.0
+12/06/2015 07:36:26 PM VND found a better solution with cost: 481.0
+12/06/2015 07:36:26 PM VND found a better solution with cost: 480.0
+12/06/2015 07:36:27 PM solution already explored
+12/06/2015 07:36:29 PM solution already explored
+12/06/2015 07:36:37 PM VND found a better solution with cost: 479.0
+12/06/2015 07:36:51 PM VND found a better solution with cost: 477.0
+12/06/2015 07:36:52 PM best solution found updated has cost of 473.0
+12/06/2015 07:36:52 PM the old solution had cost of 477.0
+12/06/2015 07:36:52 PM VND found a better solution with cost: 473.0
+12/06/2015 07:36:52 PM best solution found updated has cost of 472.0
+12/06/2015 07:36:52 PM the old solution had cost of 473.0
+12/06/2015 07:36:52 PM VND found a better solution with cost: 472.0
+12/06/2015 07:36:52 PM solution already explored
+12/06/2015 07:36:53 PM best solution found updated has cost of 471.0
+12/06/2015 07:36:53 PM the old solution had cost of 472.0
+12/06/2015 07:36:53 PM VND found a better solution with cost: 471.0
+12/06/2015 07:37:07 PM best solution found updated has cost of 470.0
+12/06/2015 07:37:07 PM the old solution had cost of 471.0
+12/06/2015 07:37:07 PM VND found a better solution with cost: 470.0
+12/06/2015 07:37:13 PM best solution found updated has cost of 466.0
+12/06/2015 07:37:13 PM the old solution had cost of 470.0
+12/06/2015 07:37:13 PM VND found a better solution with cost: 466.0
+12/06/2015 07:37:33 PM best solution found updated has cost of 456.0
+12/06/2015 07:37:33 PM the old solution had cost of 466.0
+12/06/2015 07:37:33 PM VND found a better solution with cost: 456.0
+12/06/2015 07:39:38 PM best solution so far has cost:: 456.0
+12/06/2015 07:39:38 PM iteration 4:
+12/06/2015 07:39:38 PM greedy construction generated solution with cost: 528.0
+12/06/2015 07:39:38 PM VND called
+12/06/2015 07:39:39 PM VND found a better solution with cost: 516.0
+12/06/2015 07:39:39 PM VND found a better solution with cost: 507.0
+12/06/2015 07:39:39 PM VND found a better solution with cost: 501.0
+12/06/2015 07:39:40 PM VND found a better solution with cost: 497.0
+12/06/2015 07:39:40 PM VND found a better solution with cost: 493.0
+12/06/2015 07:39:40 PM VND found a better solution with cost: 492.0
+12/06/2015 07:39:41 PM VND found a better solution with cost: 489.0
+12/06/2015 07:39:41 PM VND found a better solution with cost: 488.0
+12/06/2015 07:39:41 PM VND found a better solution with cost: 485.0
+12/06/2015 07:39:42 PM VND found a better solution with cost: 484.0
+12/06/2015 07:39:42 PM VND found a better solution with cost: 481.0
+12/06/2015 07:39:43 PM VND found a better solution with cost: 480.0
+12/06/2015 07:39:43 PM solution already explored
+12/06/2015 07:39:50 PM VND found a better solution with cost: 473.0
+12/06/2015 07:39:59 PM VND found a better solution with cost: 467.0
+12/06/2015 07:40:01 PM VND found a better solution with cost: 466.0
+12/06/2015 07:40:11 PM VND found a better solution with cost: 465.0
+12/06/2015 07:40:20 PM best solution found updated has cost of 451.0
+12/06/2015 07:40:20 PM the old solution had cost of 456.0
+12/06/2015 07:40:20 PM VND found a better solution with cost: 451.0
+12/06/2015 07:42:20 PM best solution so far has cost:: 451.0
+12/06/2015 07:42:20 PM iteration 5:
+12/06/2015 07:42:20 PM greedy construction generated solution with cost: 556.0
+12/06/2015 07:42:20 PM VND called
+12/06/2015 07:42:20 PM VND found a better solution with cost: 532.0
+12/06/2015 07:42:21 PM VND found a better solution with cost: 526.0
+12/06/2015 07:42:21 PM VND found a better solution with cost: 522.0
+12/06/2015 07:42:22 PM VND found a better solution with cost: 521.0
+12/06/2015 07:42:22 PM solution already explored
+12/06/2015 07:42:23 PM VND found a better solution with cost: 520.0
+12/06/2015 07:42:25 PM VND found a better solution with cost: 518.0
+12/06/2015 07:42:26 PM VND found a better solution with cost: 517.0
+12/06/2015 07:42:27 PM VND found a better solution with cost: 516.0
+12/06/2015 07:42:27 PM solution already explored
+12/06/2015 07:42:30 PM solution already explored
+12/06/2015 07:42:33 PM VND found a better solution with cost: 513.0
+12/06/2015 07:42:33 PM VND found a better solution with cost: 509.0
+12/06/2015 07:42:34 PM VND found a better solution with cost: 508.0
+12/06/2015 07:42:34 PM solution already explored
+12/06/2015 07:42:39 PM solution already explored
+12/06/2015 07:42:46 PM VND found a better solution with cost: 506.0
+12/06/2015 07:42:46 PM VND found a better solution with cost: 504.0
+12/06/2015 07:42:47 PM VND found a better solution with cost: 503.0
+12/06/2015 07:42:47 PM solution already explored
+12/06/2015 07:42:49 PM solution already explored
+12/06/2015 07:43:00 PM VND found a better solution with cost: 501.0
+12/06/2015 07:43:00 PM VND found a better solution with cost: 497.0
+12/06/2015 07:43:01 PM VND found a better solution with cost: 496.0
+12/06/2015 07:43:01 PM solution already explored
+12/06/2015 07:43:02 PM VND found a better solution with cost: 495.0
+12/06/2015 07:43:22 PM VND found a better solution with cost: 485.0
+12/06/2015 07:44:02 PM best solution found updated has cost of 444.0
+12/06/2015 07:44:02 PM the old solution had cost of 451.0
+12/06/2015 07:44:02 PM VND found a better solution with cost: 444.0
+12/06/2015 07:45:57 PM best solution so far has cost:: 444.0
+12/06/2015 07:45:57 PM iteration 6:
+12/06/2015 07:45:58 PM greedy construction generated solution with cost: 613.0
+12/06/2015 07:45:58 PM VND called
+12/06/2015 07:45:58 PM VND found a better solution with cost: 588.0
+12/06/2015 07:45:59 PM VND found a better solution with cost: 579.0
+12/06/2015 07:45:59 PM VND found a better solution with cost: 568.0
+12/06/2015 07:46:00 PM VND found a better solution with cost: 561.0
+12/06/2015 07:46:00 PM VND found a better solution with cost: 552.0
+12/06/2015 07:46:01 PM VND found a better solution with cost: 548.0
+12/06/2015 07:46:01 PM VND found a better solution with cost: 544.0
+12/06/2015 07:46:02 PM VND found a better solution with cost: 542.0
+12/06/2015 07:46:02 PM VND found a better solution with cost: 539.0
+12/06/2015 07:46:02 PM VND found a better solution with cost: 538.0
+12/06/2015 07:46:03 PM VND found a better solution with cost: 535.0
+12/06/2015 07:46:03 PM VND found a better solution with cost: 534.0
+12/06/2015 07:46:03 PM VND found a better solution with cost: 532.0
+12/06/2015 07:46:04 PM VND found a better solution with cost: 506.0
+12/06/2015 07:46:10 PM VND found a better solution with cost: 505.0
+12/06/2015 07:46:22 PM VND found a better solution with cost: 480.0
+12/06/2015 07:46:34 PM VND found a better solution with cost: 478.0
+12/06/2015 07:48:27 PM best solution so far has cost:: 444.0
+12/06/2015 07:48:27 PM iteration 7:
+12/06/2015 07:48:27 PM greedy construction generated solution with cost: 533.0
+12/06/2015 07:48:27 PM VND called
+12/06/2015 07:48:28 PM VND found a better solution with cost: 508.0
+12/06/2015 07:48:28 PM VND found a better solution with cost: 504.0
+12/06/2015 07:48:28 PM VND found a better solution with cost: 498.0
+12/06/2015 07:48:29 PM VND found a better solution with cost: 496.0
+12/06/2015 07:48:29 PM VND found a better solution with cost: 492.0
+12/06/2015 07:48:29 PM VND found a better solution with cost: 490.0
+12/06/2015 07:48:30 PM VND found a better solution with cost: 486.0
+12/06/2015 07:48:30 PM VND found a better solution with cost: 484.0
+12/06/2015 07:48:30 PM VND found a better solution with cost: 480.0
+12/06/2015 07:48:31 PM VND found a better solution with cost: 479.0
+12/06/2015 07:48:31 PM VND found a better solution with cost: 476.0
+12/06/2015 07:48:31 PM VND found a better solution with cost: 475.0
+12/06/2015 07:48:32 PM VND found a better solution with cost: 474.0
+12/06/2015 07:48:32 PM solution already explored
+12/06/2015 07:48:34 PM VND found a better solution with cost: 467.0
+12/06/2015 07:48:40 PM VND found a better solution with cost: 457.0
+12/06/2015 07:48:46 PM VND found a better solution with cost: 453.0
+12/06/2015 07:48:54 PM VND found a better solution with cost: 447.0
+12/06/2015 07:48:55 PM VND found a better solution with cost: 446.0
+12/06/2015 07:49:10 PM VND found a better solution with cost: 445.0
+12/06/2015 07:49:31 PM best solution found updated has cost of 438.0
+12/06/2015 07:49:31 PM the old solution had cost of 444.0
+12/06/2015 07:49:31 PM VND found a better solution with cost: 438.0
+12/06/2015 07:51:30 PM best solution so far has cost:: 438.0
+12/06/2015 07:51:30 PM iteration 8:
+12/06/2015 07:51:30 PM greedy construction generated solution with cost: 646.0
+12/06/2015 07:51:30 PM VND called
+12/06/2015 07:51:30 PM VND found a better solution with cost: 631.0
+12/06/2015 07:51:30 PM VND found a better solution with cost: 620.0
+12/06/2015 07:51:31 PM VND found a better solution with cost: 614.0
+12/06/2015 07:51:31 PM VND found a better solution with cost: 612.0
+12/06/2015 07:51:32 PM VND found a better solution with cost: 608.0
+12/06/2015 07:51:32 PM VND found a better solution with cost: 607.0
+12/06/2015 07:51:32 PM VND found a better solution with cost: 604.0
+12/06/2015 07:51:33 PM VND found a better solution with cost: 602.0
+12/06/2015 07:51:37 PM VND found a better solution with cost: 601.0
+12/06/2015 07:51:37 PM VND found a better solution with cost: 600.0
+12/06/2015 07:51:38 PM solution already explored
+12/06/2015 07:51:42 PM VND found a better solution with cost: 598.0
+12/06/2015 07:51:43 PM VND found a better solution with cost: 593.0
+12/06/2015 07:51:44 PM VND found a better solution with cost: 592.0
+12/06/2015 07:51:44 PM solution already explored
+12/06/2015 07:51:51 PM solution already explored
+12/06/2015 07:51:52 PM VND found a better solution with cost: 586.0
+12/06/2015 07:51:53 PM VND found a better solution with cost: 585.0
+12/06/2015 07:51:53 PM solution already explored
+12/06/2015 07:52:02 PM VND found a better solution with cost: 584.0
+12/06/2015 07:52:19 PM VND found a better solution with cost: 558.0
+12/06/2015 07:52:20 PM VND found a better solution with cost: 554.0
+12/06/2015 07:52:20 PM VND found a better solution with cost: 550.0
+12/06/2015 07:52:45 PM VND found a better solution with cost: 540.0
+12/06/2015 07:53:28 PM VND found a better solution with cost: 477.0
+12/06/2015 07:55:34 PM best solution so far has cost:: 438.0
+12/06/2015 07:55:34 PM iteration 9:
+12/06/2015 07:55:34 PM greedy construction generated solution with cost: 534.0
+12/06/2015 07:55:34 PM VND called
+12/06/2015 07:55:34 PM VND found a better solution with cost: 529.0
+12/06/2015 07:55:35 PM VND found a better solution with cost: 527.0
+12/06/2015 07:55:35 PM VND found a better solution with cost: 523.0
+12/06/2015 07:55:35 PM VND found a better solution with cost: 521.0
+12/06/2015 07:55:36 PM VND found a better solution with cost: 517.0
+12/06/2015 07:55:36 PM VND found a better solution with cost: 515.0
+12/06/2015 07:55:37 PM VND found a better solution with cost: 512.0
+12/06/2015 07:55:37 PM VND found a better solution with cost: 511.0
+12/06/2015 07:55:37 PM VND found a better solution with cost: 510.0
+12/06/2015 07:55:38 PM solution already explored
+12/06/2015 07:55:40 PM solution already explored
+12/06/2015 07:55:44 PM VND found a better solution with cost: 492.0
+12/06/2015 07:55:45 PM VND found a better solution with cost: 489.0
+12/06/2015 07:55:45 PM VND found a better solution with cost: 488.0
+12/06/2015 07:55:45 PM solution already explored
+12/06/2015 07:55:50 PM solution already explored
+12/06/2015 07:55:54 PM VND found a better solution with cost: 487.0
+12/06/2015 07:56:06 PM VND found a better solution with cost: 462.0
+12/06/2015 07:56:21 PM VND found a better solution with cost: 461.0
+12/06/2015 07:56:25 PM VND found a better solution with cost: 460.0
+12/06/2015 07:56:46 PM VND found a better solution with cost: 454.0
+12/06/2015 07:58:39 PM best solution so far has cost:: 438.0
+12/06/2015 07:58:39 PM iteration 10:
+12/06/2015 07:58:39 PM greedy construction generated solution with cost: 555.0
+12/06/2015 07:58:39 PM VND called
+12/06/2015 07:58:39 PM VND found a better solution with cost: 541.0
+12/06/2015 07:58:40 PM VND found a better solution with cost: 539.0
+12/06/2015 07:58:40 PM VND found a better solution with cost: 535.0
+12/06/2015 07:58:40 PM VND found a better solution with cost: 534.0
+12/06/2015 07:58:41 PM VND found a better solution with cost: 531.0
+12/06/2015 07:58:42 PM VND found a better solution with cost: 530.0
+12/06/2015 07:58:44 PM VND found a better solution with cost: 529.0
+12/06/2015 07:58:49 PM VND found a better solution with cost: 526.0
+12/06/2015 07:58:49 PM VND found a better solution with cost: 522.0
+12/06/2015 07:58:50 PM VND found a better solution with cost: 521.0
+12/06/2015 07:58:50 PM solution already explored
+12/06/2015 07:58:56 PM solution already explored
+12/06/2015 07:58:59 PM VND found a better solution with cost: 514.0
+12/06/2015 07:59:07 PM VND found a better solution with cost: 509.0
+12/06/2015 07:59:17 PM VND found a better solution with cost: 508.0
+12/06/2015 07:59:27 PM VND found a better solution with cost: 506.0
+12/06/2015 07:59:27 PM VND found a better solution with cost: 505.0
+12/06/2015 07:59:28 PM VND found a better solution with cost: 504.0
+12/06/2015 07:59:28 PM solution already explored
+12/06/2015 07:59:30 PM solution already explored
+12/06/2015 07:59:39 PM VND found a better solution with cost: 481.0
+12/06/2015 07:59:52 PM VND found a better solution with cost: 479.0
+12/06/2015 07:59:53 PM VND found a better solution with cost: 477.0
+12/06/2015 07:59:53 PM VND found a better solution with cost: 476.0
+12/06/2015 07:59:53 PM solution already explored
+12/06/2015 07:59:56 PM solution already explored
+12/06/2015 08:01:50 PM best solution so far has cost:: 438.0
+12/06/2015 08:01:50 PM iteration 11:
+12/06/2015 08:01:51 PM greedy construction generated solution with cost: 554.0
+12/06/2015 08:01:51 PM VND called
+12/06/2015 08:01:51 PM VND found a better solution with cost: 541.0
+12/06/2015 08:01:51 PM VND found a better solution with cost: 530.0
+12/06/2015 08:01:52 PM VND found a better solution with cost: 524.0
+12/06/2015 08:01:52 PM VND found a better solution with cost: 522.0
+12/06/2015 08:01:52 PM VND found a better solution with cost: 518.0
+12/06/2015 08:01:53 PM VND found a better solution with cost: 516.0
+12/06/2015 08:01:53 PM VND found a better solution with cost: 512.0
+12/06/2015 08:01:54 PM VND found a better solution with cost: 510.0
+12/06/2015 08:01:54 PM VND found a better solution with cost: 506.0
+12/06/2015 08:01:55 PM VND found a better solution with cost: 504.0
+12/06/2015 08:01:55 PM VND found a better solution with cost: 500.0
+12/06/2015 08:01:55 PM VND found a better solution with cost: 499.0
+12/06/2015 08:01:56 PM VND found a better solution with cost: 496.0
+12/06/2015 08:01:56 PM VND found a better solution with cost: 495.0
+12/06/2015 08:01:57 PM VND found a better solution with cost: 493.0
+12/06/2015 08:02:11 PM VND found a better solution with cost: 492.0
+12/06/2015 08:02:17 PM VND found a better solution with cost: 491.0
+12/06/2015 08:02:18 PM VND found a better solution with cost: 490.0
+12/06/2015 08:02:19 PM solution already explored
+12/06/2015 08:04:12 PM best solution so far has cost:: 438.0
+12/06/2015 08:04:12 PM iteration 12:
+12/06/2015 08:04:12 PM greedy construction generated solution with cost: 547.0
+12/06/2015 08:04:12 PM VND called
+12/06/2015 08:04:13 PM VND found a better solution with cost: 538.0
+12/06/2015 08:04:13 PM VND found a better solution with cost: 533.0
+12/06/2015 08:04:14 PM VND found a better solution with cost: 529.0
+12/06/2015 08:04:14 PM VND found a better solution with cost: 527.0
+12/06/2015 08:04:14 PM VND found a better solution with cost: 523.0
+12/06/2015 08:04:15 PM VND found a better solution with cost: 521.0
+12/06/2015 08:04:15 PM VND found a better solution with cost: 518.0
+12/06/2015 08:04:16 PM VND found a better solution with cost: 517.0
+12/06/2015 08:04:16 PM VND found a better solution with cost: 514.0
+12/06/2015 08:04:16 PM VND found a better solution with cost: 508.0
+12/06/2015 08:04:17 PM VND found a better solution with cost: 505.0
+12/06/2015 08:04:17 PM VND found a better solution with cost: 503.0
+12/06/2015 08:04:21 PM VND found a better solution with cost: 493.0
+12/06/2015 08:04:27 PM VND found a better solution with cost: 492.0
+12/06/2015 08:04:34 PM VND found a better solution with cost: 487.0
+12/06/2015 08:04:36 PM VND found a better solution with cost: 486.0
+12/06/2015 08:04:51 PM VND found a better solution with cost: 473.0
+12/06/2015 08:05:04 PM VND found a better solution with cost: 472.0
+12/06/2015 08:07:04 PM best solution so far has cost:: 438.0
+12/06/2015 08:07:04 PM iteration 13:
+12/06/2015 08:07:04 PM greedy construction generated solution with cost: 569.0
+12/06/2015 08:07:04 PM VND called
+12/06/2015 08:07:04 PM VND found a better solution with cost: 560.0
+12/06/2015 08:07:05 PM VND found a better solution with cost: 553.0
+12/06/2015 08:07:05 PM VND found a better solution with cost: 546.0
+12/06/2015 08:07:05 PM VND found a better solution with cost: 542.0
+12/06/2015 08:07:06 PM VND found a better solution with cost: 538.0
+12/06/2015 08:07:06 PM VND found a better solution with cost: 536.0
+12/06/2015 08:07:06 PM VND found a better solution with cost: 532.0
+12/06/2015 08:07:07 PM VND found a better solution with cost: 530.0
+12/06/2015 08:07:07 PM VND found a better solution with cost: 526.0
+12/06/2015 08:07:07 PM VND found a better solution with cost: 524.0
+12/06/2015 08:07:08 PM VND found a better solution with cost: 521.0
+12/06/2015 08:07:08 PM VND found a better solution with cost: 520.0
+12/06/2015 08:07:08 PM VND found a better solution with cost: 518.0
+12/06/2015 08:07:13 PM VND found a better solution with cost: 517.0
+12/06/2015 08:07:20 PM VND found a better solution with cost: 516.0
+12/06/2015 08:07:29 PM VND found a better solution with cost: 511.0
+12/06/2015 08:07:47 PM VND found a better solution with cost: 504.0
+12/06/2015 08:09:38 PM best solution so far has cost:: 438.0
+12/06/2015 08:09:38 PM iteration 14:
+12/06/2015 08:09:38 PM greedy construction generated solution with cost: 549.0
+12/06/2015 08:09:38 PM VND called
+12/06/2015 08:09:38 PM VND found a better solution with cost: 535.0
+12/06/2015 08:09:39 PM VND found a better solution with cost: 531.0
+12/06/2015 08:09:39 PM VND found a better solution with cost: 527.0
+12/06/2015 08:09:39 PM VND found a better solution with cost: 525.0
+12/06/2015 08:09:40 PM VND found a better solution with cost: 521.0
+12/06/2015 08:09:40 PM VND found a better solution with cost: 520.0
+12/06/2015 08:09:40 PM VND found a better solution with cost: 517.0
+12/06/2015 08:09:41 PM VND found a better solution with cost: 516.0
+12/06/2015 08:09:41 PM VND found a better solution with cost: 514.0
+12/06/2015 08:09:45 PM VND found a better solution with cost: 506.0
+12/06/2015 08:09:52 PM VND found a better solution with cost: 501.0
+12/06/2015 08:09:59 PM VND found a better solution with cost: 500.0
+12/06/2015 08:10:12 PM VND found a better solution with cost: 498.0
+12/06/2015 08:10:13 PM VND found a better solution with cost: 496.0
+12/06/2015 08:10:13 PM VND found a better solution with cost: 495.0
+12/06/2015 08:10:13 PM solution already explored
+12/06/2015 08:10:16 PM solution already explored
+12/06/2015 08:10:26 PM VND found a better solution with cost: 455.0
+12/06/2015 08:10:26 PM VND found a better solution with cost: 451.0
+12/06/2015 08:10:26 PM VND found a better solution with cost: 450.0
+12/06/2015 08:10:27 PM solution already explored
+12/06/2015 08:10:28 PM VND found a better solution with cost: 449.0
+12/06/2015 08:10:49 PM VND found a better solution with cost: 439.0
+12/06/2015 08:12:43 PM best solution so far has cost:: 438.0
+12/06/2015 08:12:43 PM iteration 15:
+12/06/2015 08:12:43 PM greedy construction generated solution with cost: 562.0
+12/06/2015 08:12:43 PM VND called
+12/06/2015 08:12:43 PM VND found a better solution with cost: 550.0
+12/06/2015 08:12:44 PM VND found a better solution with cost: 547.0
+12/06/2015 08:12:44 PM VND found a better solution with cost: 543.0
+12/06/2015 08:12:44 PM VND found a better solution with cost: 541.0
+12/06/2015 08:12:45 PM VND found a better solution with cost: 537.0
+12/06/2015 08:12:45 PM VND found a better solution with cost: 535.0
+12/06/2015 08:12:45 PM VND found a better solution with cost: 532.0
+12/06/2015 08:12:46 PM VND found a better solution with cost: 531.0
+12/06/2015 08:12:46 PM VND found a better solution with cost: 528.0
+12/06/2015 08:12:47 PM VND found a better solution with cost: 527.0
+12/06/2015 08:12:47 PM VND found a better solution with cost: 526.0
+12/06/2015 08:12:48 PM solution already explored
+12/06/2015 08:12:54 PM VND found a better solution with cost: 525.0
+12/06/2015 08:12:54 PM VND found a better solution with cost: 524.0
+12/06/2015 08:12:55 PM VND found a better solution with cost: 523.0
+12/06/2015 08:12:55 PM solution already explored
+12/06/2015 08:12:56 PM solution already explored
+12/06/2015 08:13:07 PM VND found a better solution with cost: 521.0
+12/06/2015 08:13:07 PM VND found a better solution with cost: 520.0
+12/06/2015 08:13:07 PM VND found a better solution with cost: 519.0
+12/06/2015 08:13:08 PM solution already explored
+12/06/2015 08:13:09 PM solution already explored
+12/06/2015 08:13:19 PM VND found a better solution with cost: 517.0
+12/06/2015 08:15:12 PM best solution so far has cost:: 438.0
+12/06/2015 08:15:12 PM iteration 16:
+12/06/2015 08:15:12 PM greedy construction generated solution with cost: 566.0
+12/06/2015 08:15:12 PM VND called
+12/06/2015 08:15:13 PM VND found a better solution with cost: 557.0
+12/06/2015 08:15:13 PM VND found a better solution with cost: 552.0
+12/06/2015 08:15:13 PM VND found a better solution with cost: 546.0
+12/06/2015 08:15:14 PM VND found a better solution with cost: 542.0
+12/06/2015 08:15:14 PM VND found a better solution with cost: 537.0
+12/06/2015 08:15:14 PM VND found a better solution with cost: 534.0
+12/06/2015 08:15:15 PM VND found a better solution with cost: 530.0
+12/06/2015 08:15:15 PM VND found a better solution with cost: 528.0
+12/06/2015 08:15:15 PM VND found a better solution with cost: 525.0
+12/06/2015 08:15:17 PM VND found a better solution with cost: 524.0
+12/06/2015 08:15:18 PM VND found a better solution with cost: 523.0
+12/06/2015 08:15:24 PM VND found a better solution with cost: 508.0
+12/06/2015 08:15:30 PM VND found a better solution with cost: 503.0
+12/06/2015 08:17:23 PM best solution so far has cost:: 438.0
+12/06/2015 08:17:23 PM iteration 17:
+12/06/2015 08:17:23 PM greedy construction generated solution with cost: 572.0
+12/06/2015 08:17:23 PM VND called
+12/06/2015 08:17:24 PM VND found a better solution with cost: 558.0
+12/06/2015 08:17:24 PM VND found a better solution with cost: 553.0
+12/06/2015 08:17:24 PM VND found a better solution with cost: 547.0
+12/06/2015 08:17:25 PM VND found a better solution with cost: 545.0
+12/06/2015 08:17:25 PM VND found a better solution with cost: 541.0
+12/06/2015 08:17:25 PM VND found a better solution with cost: 539.0
+12/06/2015 08:17:26 PM VND found a better solution with cost: 535.0
+12/06/2015 08:17:26 PM VND found a better solution with cost: 534.0
+12/06/2015 08:17:26 PM VND found a better solution with cost: 531.0
+12/06/2015 08:17:27 PM VND found a better solution with cost: 530.0
+12/06/2015 08:17:27 PM VND found a better solution with cost: 527.0
+12/06/2015 08:17:27 PM VND found a better solution with cost: 526.0
+12/06/2015 08:17:28 PM solution already explored
+12/06/2015 08:17:29 PM VND found a better solution with cost: 525.0
+12/06/2015 08:17:29 PM VND found a better solution with cost: 524.0
+12/06/2015 08:17:30 PM solution already explored
+12/06/2015 08:17:31 PM VND found a better solution with cost: 523.0
+12/06/2015 08:17:37 PM VND found a better solution with cost: 522.0
+12/06/2015 08:17:43 PM VND found a better solution with cost: 516.0
+12/06/2015 08:17:53 PM VND found a better solution with cost: 514.0
+12/06/2015 08:17:53 PM VND found a better solution with cost: 513.0
+12/06/2015 08:17:53 PM VND found a better solution with cost: 512.0
+12/06/2015 08:17:54 PM solution already explored
+12/06/2015 08:17:55 PM solution already explored
+12/06/2015 08:18:06 PM VND found a better solution with cost: 511.0
+12/06/2015 08:18:11 PM VND found a better solution with cost: 510.0
+12/06/2015 08:20:06 PM best solution so far has cost:: 438.0
+12/06/2015 08:20:06 PM iteration 18:
+12/06/2015 08:20:06 PM greedy construction generated solution with cost: 552.0
+12/06/2015 08:20:06 PM VND called
+12/06/2015 08:20:06 PM VND found a better solution with cost: 542.0
+12/06/2015 08:20:06 PM VND found a better solution with cost: 536.0
+12/06/2015 08:20:07 PM VND found a better solution with cost: 531.0
+12/06/2015 08:20:07 PM VND found a better solution with cost: 529.0
+12/06/2015 08:20:07 PM VND found a better solution with cost: 525.0
+12/06/2015 08:20:08 PM VND found a better solution with cost: 523.0
+12/06/2015 08:20:08 PM VND found a better solution with cost: 520.0
+12/06/2015 08:20:09 PM VND found a better solution with cost: 518.0
+12/06/2015 08:20:13 PM VND found a better solution with cost: 517.0
+12/06/2015 08:20:13 PM VND found a better solution with cost: 516.0
+12/06/2015 08:20:13 PM VND found a better solution with cost: 514.0
+12/06/2015 08:20:21 PM VND found a better solution with cost: 513.0
+12/06/2015 08:20:33 PM VND found a better solution with cost: 511.0
+12/06/2015 08:22:29 PM best solution so far has cost:: 438.0
+12/06/2015 08:22:29 PM iteration 19:
+12/06/2015 08:22:29 PM greedy construction generated solution with cost: 498.0
+12/06/2015 08:22:29 PM VND called
+12/06/2015 08:22:30 PM VND found a better solution with cost: 493.0
+12/06/2015 08:22:30 PM VND found a better solution with cost: 487.0
+12/06/2015 08:22:30 PM VND found a better solution with cost: 485.0
+12/06/2015 08:22:31 PM VND found a better solution with cost: 481.0
+12/06/2015 08:22:31 PM VND found a better solution with cost: 480.0
+12/06/2015 08:22:31 PM VND found a better solution with cost: 477.0
+12/06/2015 08:22:32 PM VND found a better solution with cost: 476.0
+12/06/2015 08:22:32 PM VND found a better solution with cost: 473.0
+12/06/2015 08:22:33 PM VND found a better solution with cost: 472.0
+12/06/2015 08:22:34 PM VND found a better solution with cost: 470.0
+12/06/2015 08:22:34 PM VND found a better solution with cost: 469.0
+12/06/2015 08:22:34 PM solution already explored
+12/06/2015 08:22:37 PM solution already explored
+12/06/2015 08:22:38 PM VND found a better solution with cost: 468.0
+12/06/2015 08:22:49 PM VND found a better solution with cost: 466.0
+12/06/2015 08:22:49 PM VND found a better solution with cost: 465.0
+12/06/2015 08:22:49 PM VND found a better solution with cost: 464.0
+12/06/2015 08:22:50 PM solution already explored
+12/06/2015 08:22:51 PM solution already explored
+12/06/2015 08:23:01 PM VND found a better solution with cost: 450.0
+12/06/2015 08:23:14 PM VND found a better solution with cost: 448.0
+12/06/2015 08:25:05 PM best solution so far has cost:: 438.0
+12/06/2015 08:25:05 PM iteration 20:
+12/06/2015 08:25:05 PM greedy construction generated solution with cost: 558.0
+12/06/2015 08:25:05 PM VND called
+12/06/2015 08:25:05 PM VND found a better solution with cost: 547.0
+12/06/2015 08:25:06 PM VND found a better solution with cost: 540.0
+12/06/2015 08:25:06 PM VND found a better solution with cost: 532.0
+12/06/2015 08:25:06 PM VND found a better solution with cost: 529.0
+12/06/2015 08:25:07 PM VND found a better solution with cost: 524.0
+12/06/2015 08:25:07 PM VND found a better solution with cost: 521.0
+12/06/2015 08:25:07 PM VND found a better solution with cost: 517.0
+12/06/2015 08:25:08 PM VND found a better solution with cost: 515.0
+12/06/2015 08:25:08 PM VND found a better solution with cost: 511.0
+12/06/2015 08:25:08 PM VND found a better solution with cost: 510.0
+12/06/2015 08:25:09 PM VND found a better solution with cost: 508.0
+12/06/2015 08:25:12 PM VND found a better solution with cost: 502.0
+12/06/2015 08:25:20 PM VND found a better solution with cost: 499.0
+12/06/2015 08:25:20 PM VND found a better solution with cost: 497.0
+12/06/2015 08:25:20 PM VND found a better solution with cost: 496.0
+12/06/2015 08:25:21 PM solution already explored
+12/06/2015 08:25:24 PM solution already explored
+12/06/2015 08:25:28 PM VND found a better solution with cost: 495.0
+12/06/2015 08:25:39 PM VND found a better solution with cost: 493.0
+12/06/2015 08:25:40 PM VND found a better solution with cost: 492.0
+12/06/2015 08:25:40 PM VND found a better solution with cost: 491.0
+12/06/2015 08:25:40 PM solution already explored
+12/06/2015 08:25:42 PM solution already explored
+12/06/2015 08:25:56 PM VND found a better solution with cost: 490.0
+12/06/2015 08:27:47 PM solver completed
+12/06/2015 08:27:47 PM best solution found has cost: 438.0

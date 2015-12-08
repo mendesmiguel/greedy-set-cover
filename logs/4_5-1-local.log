@@ -1,0 +1,1893 @@
+12/05/2015 10:09:19 AM A shape: (200, 1000)
+12/05/2015 10:09:19 AM N iterations: 120
+12/05/2015 10:09:19 AM alpha: 0.003
+12/05/2015 10:09:19 AM RCL length: 4
+12/05/2015 10:09:19 AM solver will stop after 120 seconds
+12/05/2015 10:09:19 AM iteration 0:
+12/05/2015 10:09:19 AM greedy construction generated solution with cost: 611.0
+12/05/2015 10:09:19 AM best solution found updated has cost of 611.0
+12/05/2015 10:09:19 AM the old solution had cost of 49790.0
+12/05/2015 10:09:19 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:19 AM best solution found updated has cost of 610.0
+12/05/2015 10:09:19 AM the old solution had cost of 611.0
+12/05/2015 10:09:19 AM local search produced solution with cost: 609.0
+12/05/2015 10:09:19 AM best solution found updated has cost of 609.0
+12/05/2015 10:09:19 AM the old solution had cost of 610.0
+12/05/2015 10:09:19 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:19 AM best solution found updated has cost of 608.0
+12/05/2015 10:09:19 AM the old solution had cost of 609.0
+12/05/2015 10:09:19 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:19 AM best solution found updated has cost of 607.0
+12/05/2015 10:09:19 AM the old solution had cost of 608.0
+12/05/2015 10:09:19 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:19 AM best solution found updated has cost of 606.0
+12/05/2015 10:09:19 AM the old solution had cost of 607.0
+12/05/2015 10:09:19 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:19 AM best solution found updated has cost of 605.0
+12/05/2015 10:09:19 AM the old solution had cost of 606.0
+12/05/2015 10:09:19 AM best solution so far has cost:: 605.0
+12/05/2015 10:09:19 AM iteration 1:
+12/05/2015 10:09:19 AM greedy construction generated solution with cost: 626.0
+12/05/2015 10:09:19 AM local search produced solution with cost: 625.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 624.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 623.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 622.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 621.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 618.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:20 AM best solution so far has cost:: 605.0
+12/05/2015 10:09:20 AM iteration 2:
+12/05/2015 10:09:20 AM greedy construction generated solution with cost: 601.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 601.0
+12/05/2015 10:09:20 AM the old solution had cost of 605.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 600.0
+12/05/2015 10:09:20 AM the old solution had cost of 601.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 599.0
+12/05/2015 10:09:20 AM the old solution had cost of 600.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 598.0
+12/05/2015 10:09:20 AM the old solution had cost of 599.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 597.0
+12/05/2015 10:09:20 AM the old solution had cost of 598.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 595.0
+12/05/2015 10:09:20 AM the old solution had cost of 597.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 594.0
+12/05/2015 10:09:20 AM the old solution had cost of 595.0
+12/05/2015 10:09:20 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:20 AM best solution found updated has cost of 591.0
+12/05/2015 10:09:20 AM the old solution had cost of 594.0
+12/05/2015 10:09:21 AM best solution so far has cost:: 591.0
+12/05/2015 10:09:21 AM iteration 3:
+12/05/2015 10:09:21 AM greedy construction generated solution with cost: 602.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:21 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:21 AM best solution so far has cost:: 591.0
+12/05/2015 10:09:21 AM iteration 4:
+12/05/2015 10:09:22 AM greedy construction generated solution with cost: 606.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:22 AM best solution so far has cost:: 591.0
+12/05/2015 10:09:22 AM iteration 5:
+12/05/2015 10:09:22 AM greedy construction generated solution with cost: 606.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:22 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:23 AM best solution so far has cost:: 591.0
+12/05/2015 10:09:23 AM iteration 6:
+12/05/2015 10:09:23 AM greedy construction generated solution with cost: 590.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 590.0
+12/05/2015 10:09:23 AM the old solution had cost of 591.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 589.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 589.0
+12/05/2015 10:09:23 AM the old solution had cost of 590.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 588.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 588.0
+12/05/2015 10:09:23 AM the old solution had cost of 589.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 587.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 587.0
+12/05/2015 10:09:23 AM the old solution had cost of 588.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 586.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 586.0
+12/05/2015 10:09:23 AM the old solution had cost of 587.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 585.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 585.0
+12/05/2015 10:09:23 AM the old solution had cost of 586.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 584.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 584.0
+12/05/2015 10:09:23 AM the old solution had cost of 585.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 582.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 582.0
+12/05/2015 10:09:23 AM the old solution had cost of 584.0
+12/05/2015 10:09:23 AM local search produced solution with cost: 580.0
+12/05/2015 10:09:23 AM best solution found updated has cost of 580.0
+12/05/2015 10:09:23 AM the old solution had cost of 582.0
+12/05/2015 10:09:23 AM best solution so far has cost:: 580.0
+12/05/2015 10:09:23 AM iteration 7:
+12/05/2015 10:09:24 AM greedy construction generated solution with cost: 603.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:24 AM best solution so far has cost:: 580.0
+12/05/2015 10:09:24 AM iteration 8:
+12/05/2015 10:09:24 AM greedy construction generated solution with cost: 617.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 612.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 611.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 609.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:24 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:25 AM best solution so far has cost:: 580.0
+12/05/2015 10:09:25 AM iteration 9:
+12/05/2015 10:09:25 AM greedy construction generated solution with cost: 605.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:25 AM best solution so far has cost:: 580.0
+12/05/2015 10:09:25 AM iteration 10:
+12/05/2015 10:09:25 AM greedy construction generated solution with cost: 610.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 609.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:25 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:26 AM best solution so far has cost:: 580.0
+12/05/2015 10:09:26 AM iteration 11:
+12/05/2015 10:09:26 AM greedy construction generated solution with cost: 607.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:26 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:27 AM best solution so far has cost:: 580.0
+12/05/2015 10:09:27 AM iteration 12:
+12/05/2015 10:09:27 AM greedy construction generated solution with cost: 576.0
+12/05/2015 10:09:27 AM best solution found updated has cost of 576.0
+12/05/2015 10:09:27 AM the old solution had cost of 580.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 575.0
+12/05/2015 10:09:27 AM best solution found updated has cost of 575.0
+12/05/2015 10:09:27 AM the old solution had cost of 576.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 574.0
+12/05/2015 10:09:27 AM best solution found updated has cost of 574.0
+12/05/2015 10:09:27 AM the old solution had cost of 575.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 573.0
+12/05/2015 10:09:27 AM best solution found updated has cost of 573.0
+12/05/2015 10:09:27 AM the old solution had cost of 574.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 572.0
+12/05/2015 10:09:27 AM best solution found updated has cost of 572.0
+12/05/2015 10:09:27 AM the old solution had cost of 573.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 571.0
+12/05/2015 10:09:27 AM best solution found updated has cost of 571.0
+12/05/2015 10:09:27 AM the old solution had cost of 572.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 570.0
+12/05/2015 10:09:27 AM best solution found updated has cost of 570.0
+12/05/2015 10:09:27 AM the old solution had cost of 571.0
+12/05/2015 10:09:27 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:27 AM iteration 13:
+12/05/2015 10:09:27 AM greedy construction generated solution with cost: 598.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:27 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 590.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 588.0
+12/05/2015 10:09:28 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:28 AM iteration 14:
+12/05/2015 10:09:28 AM greedy construction generated solution with cost: 621.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 619.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 618.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:28 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:29 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:29 AM iteration 15:
+12/05/2015 10:09:29 AM greedy construction generated solution with cost: 589.0
+12/05/2015 10:09:29 AM local search produced solution with cost: 588.0
+12/05/2015 10:09:29 AM local search produced solution with cost: 587.0
+12/05/2015 10:09:29 AM local search produced solution with cost: 586.0
+12/05/2015 10:09:29 AM local search produced solution with cost: 585.0
+12/05/2015 10:09:29 AM local search produced solution with cost: 584.0
+12/05/2015 10:09:29 AM local search produced solution with cost: 583.0
+12/05/2015 10:09:29 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:29 AM iteration 16:
+12/05/2015 10:09:30 AM greedy construction generated solution with cost: 601.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:30 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:30 AM iteration 17:
+12/05/2015 10:09:30 AM greedy construction generated solution with cost: 601.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:30 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:31 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:31 AM iteration 18:
+12/05/2015 10:09:31 AM greedy construction generated solution with cost: 596.0
+12/05/2015 10:09:31 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:31 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:31 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:31 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:31 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:31 AM local search produced solution with cost: 587.0
+12/05/2015 10:09:31 AM local search produced solution with cost: 586.0
+12/05/2015 10:09:31 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:31 AM iteration 19:
+12/05/2015 10:09:32 AM greedy construction generated solution with cost: 607.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:32 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:32 AM iteration 20:
+12/05/2015 10:09:32 AM greedy construction generated solution with cost: 638.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 637.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 636.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 635.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 634.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 633.0
+12/05/2015 10:09:32 AM local search produced solution with cost: 630.0
+12/05/2015 10:09:33 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:33 AM iteration 21:
+12/05/2015 10:09:33 AM greedy construction generated solution with cost: 632.0
+12/05/2015 10:09:33 AM local search produced solution with cost: 631.0
+12/05/2015 10:09:33 AM local search produced solution with cost: 630.0
+12/05/2015 10:09:33 AM local search produced solution with cost: 629.0
+12/05/2015 10:09:33 AM local search produced solution with cost: 628.0
+12/05/2015 10:09:33 AM local search produced solution with cost: 627.0
+12/05/2015 10:09:33 AM local search produced solution with cost: 626.0
+12/05/2015 10:09:33 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:34 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:34 AM iteration 22:
+12/05/2015 10:09:34 AM greedy construction generated solution with cost: 633.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 632.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 631.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 630.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 629.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 628.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 627.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 626.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 625.0
+12/05/2015 10:09:34 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:34 AM iteration 23:
+12/05/2015 10:09:34 AM greedy construction generated solution with cost: 603.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:34 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:35 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:35 AM iteration 24:
+12/05/2015 10:09:35 AM greedy construction generated solution with cost: 626.0
+12/05/2015 10:09:35 AM local search produced solution with cost: 625.0
+12/05/2015 10:09:35 AM local search produced solution with cost: 624.0
+12/05/2015 10:09:35 AM local search produced solution with cost: 623.0
+12/05/2015 10:09:35 AM local search produced solution with cost: 622.0
+12/05/2015 10:09:35 AM local search produced solution with cost: 621.0
+12/05/2015 10:09:35 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:35 AM best solution so far has cost:: 570.0
+12/05/2015 10:09:35 AM iteration 25:
+12/05/2015 10:09:36 AM greedy construction generated solution with cost: 579.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 578.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 577.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 576.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 575.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 574.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 573.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 569.0
+12/05/2015 10:09:36 AM best solution found updated has cost of 569.0
+12/05/2015 10:09:36 AM the old solution had cost of 570.0
+12/05/2015 10:09:36 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:36 AM iteration 26:
+12/05/2015 10:09:36 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:36 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:37 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:37 AM iteration 27:
+12/05/2015 10:09:37 AM greedy construction generated solution with cost: 624.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 623.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 622.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 621.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 618.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:37 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:37 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:37 AM iteration 28:
+12/05/2015 10:09:38 AM greedy construction generated solution with cost: 623.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 622.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 621.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 619.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 618.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:38 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:38 AM iteration 29:
+12/05/2015 10:09:38 AM greedy construction generated solution with cost: 620.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 619.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 618.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 612.0
+12/05/2015 10:09:38 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:39 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:39 AM iteration 30:
+12/05/2015 10:09:39 AM greedy construction generated solution with cost: 612.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 611.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 609.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:39 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:39 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:39 AM iteration 31:
+12/05/2015 10:09:40 AM greedy construction generated solution with cost: 605.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:40 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:40 AM iteration 32:
+12/05/2015 10:09:40 AM greedy construction generated solution with cost: 634.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 633.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 632.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 631.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 630.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 629.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 628.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 627.0
+12/05/2015 10:09:40 AM local search produced solution with cost: 626.0
+12/05/2015 10:09:41 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:41 AM iteration 33:
+12/05/2015 10:09:41 AM greedy construction generated solution with cost: 627.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 626.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 625.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 624.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 623.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 622.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 621.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:41 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:41 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:41 AM iteration 34:
+12/05/2015 10:09:42 AM greedy construction generated solution with cost: 591.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 590.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 589.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 588.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 587.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 585.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 581.0
+12/05/2015 10:09:42 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:42 AM iteration 35:
+12/05/2015 10:09:42 AM greedy construction generated solution with cost: 595.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 590.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 589.0
+12/05/2015 10:09:42 AM local search produced solution with cost: 585.0
+12/05/2015 10:09:43 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:43 AM iteration 36:
+12/05/2015 10:09:43 AM greedy construction generated solution with cost: 581.0
+12/05/2015 10:09:43 AM local search produced solution with cost: 580.0
+12/05/2015 10:09:43 AM local search produced solution with cost: 579.0
+12/05/2015 10:09:43 AM local search produced solution with cost: 578.0
+12/05/2015 10:09:43 AM local search produced solution with cost: 577.0
+12/05/2015 10:09:43 AM local search produced solution with cost: 576.0
+12/05/2015 10:09:43 AM local search produced solution with cost: 575.0
+12/05/2015 10:09:43 AM local search produced solution with cost: 571.0
+12/05/2015 10:09:43 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:43 AM iteration 37:
+12/05/2015 10:09:44 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:44 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:44 AM iteration 38:
+12/05/2015 10:09:44 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:44 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:45 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:45 AM iteration 39:
+12/05/2015 10:09:45 AM greedy construction generated solution with cost: 614.0
+12/05/2015 10:09:45 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:45 AM local search produced solution with cost: 612.0
+12/05/2015 10:09:45 AM local search produced solution with cost: 611.0
+12/05/2015 10:09:45 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:45 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:45 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:45 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:45 AM iteration 40:
+12/05/2015 10:09:46 AM greedy construction generated solution with cost: 605.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:46 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:46 AM iteration 41:
+12/05/2015 10:09:46 AM greedy construction generated solution with cost: 621.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 619.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 618.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:46 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:47 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:47 AM iteration 42:
+12/05/2015 10:09:47 AM greedy construction generated solution with cost: 628.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 627.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 626.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 625.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 624.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 623.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 622.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 621.0
+12/05/2015 10:09:47 AM local search produced solution with cost: 620.0
+12/05/2015 10:09:47 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:47 AM iteration 43:
+12/05/2015 10:09:48 AM greedy construction generated solution with cost: 635.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 634.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 633.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 632.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 631.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 630.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 629.0
+12/05/2015 10:09:48 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:48 AM iteration 44:
+12/05/2015 10:09:48 AM greedy construction generated solution with cost: 615.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 612.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 611.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:48 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:49 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:49 AM iteration 45:
+12/05/2015 10:09:49 AM greedy construction generated solution with cost: 612.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 611.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 609.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:49 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:49 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:49 AM iteration 46:
+12/05/2015 10:09:50 AM greedy construction generated solution with cost: 594.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 590.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 589.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 588.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 584.0
+12/05/2015 10:09:50 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:50 AM iteration 47:
+12/05/2015 10:09:50 AM greedy construction generated solution with cost: 631.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 630.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 629.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 628.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 627.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 626.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 624.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 621.0
+12/05/2015 10:09:50 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:51 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:51 AM iteration 48:
+12/05/2015 10:09:51 AM greedy construction generated solution with cost: 609.0
+12/05/2015 10:09:51 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:51 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:51 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:51 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:51 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:51 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:51 AM iteration 49:
+12/05/2015 10:09:52 AM greedy construction generated solution with cost: 599.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 590.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 589.0
+12/05/2015 10:09:52 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:52 AM iteration 50:
+12/05/2015 10:09:52 AM greedy construction generated solution with cost: 619.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 618.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:52 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:53 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:53 AM iteration 51:
+12/05/2015 10:09:53 AM greedy construction generated solution with cost: 607.0
+12/05/2015 10:09:53 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:53 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:53 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:53 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:53 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:53 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:53 AM iteration 52:
+12/05/2015 10:09:54 AM greedy construction generated solution with cost: 602.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 590.0
+12/05/2015 10:09:54 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:54 AM iteration 53:
+12/05/2015 10:09:54 AM greedy construction generated solution with cost: 602.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 601.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 600.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 599.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 598.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:54 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:55 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:55 AM iteration 54:
+12/05/2015 10:09:55 AM greedy construction generated solution with cost: 618.0
+12/05/2015 10:09:55 AM local search produced solution with cost: 617.0
+12/05/2015 10:09:55 AM local search produced solution with cost: 616.0
+12/05/2015 10:09:55 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:55 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:55 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:55 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:55 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:55 AM iteration 55:
+12/05/2015 10:09:56 AM greedy construction generated solution with cost: 596.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 590.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 588.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 586.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 584.0
+12/05/2015 10:09:56 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:56 AM iteration 56:
+12/05/2015 10:09:56 AM greedy construction generated solution with cost: 616.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 615.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 614.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 613.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 612.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 611.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 610.0
+12/05/2015 10:09:56 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:57 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:57 AM iteration 57:
+12/05/2015 10:09:57 AM greedy construction generated solution with cost: 597.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 593.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 592.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 591.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 589.0
+12/05/2015 10:09:57 AM local search produced solution with cost: 587.0
+12/05/2015 10:09:57 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:57 AM iteration 58:
+12/05/2015 10:09:58 AM greedy construction generated solution with cost: 582.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 581.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 580.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 579.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 578.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 576.0
+12/05/2015 10:09:58 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:58 AM iteration 59:
+12/05/2015 10:09:58 AM greedy construction generated solution with cost: 579.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 578.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 577.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 576.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 575.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 573.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 570.0
+12/05/2015 10:09:58 AM local search produced solution with cost: 569.0
+12/05/2015 10:09:59 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:59 AM iteration 60:
+12/05/2015 10:09:59 AM greedy construction generated solution with cost: 609.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 608.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 607.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 606.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 605.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 604.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 603.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 602.0
+12/05/2015 10:09:59 AM best solution so far has cost:: 569.0
+12/05/2015 10:09:59 AM iteration 61:
+12/05/2015 10:09:59 AM greedy construction generated solution with cost: 598.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 597.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 596.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 595.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 594.0
+12/05/2015 10:09:59 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:00 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:00 AM iteration 62:
+12/05/2015 10:10:00 AM greedy construction generated solution with cost: 605.0
+12/05/2015 10:10:00 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:00 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:00 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:00 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:00 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:01 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:01 AM iteration 63:
+12/05/2015 10:10:01 AM greedy construction generated solution with cost: 617.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:01 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:01 AM iteration 64:
+12/05/2015 10:10:01 AM greedy construction generated solution with cost: 601.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:01 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:02 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:02 AM iteration 65:
+12/05/2015 10:10:02 AM greedy construction generated solution with cost: 603.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:02 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:03 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:03 AM iteration 66:
+12/05/2015 10:10:03 AM greedy construction generated solution with cost: 631.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 630.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 629.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 628.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 627.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 626.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 623.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 622.0
+12/05/2015 10:10:03 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:03 AM iteration 67:
+12/05/2015 10:10:03 AM greedy construction generated solution with cost: 633.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 632.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 631.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 630.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 629.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 628.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 625.0
+12/05/2015 10:10:03 AM local search produced solution with cost: 623.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:04 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:04 AM iteration 68:
+12/05/2015 10:10:04 AM greedy construction generated solution with cost: 612.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:04 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:05 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:05 AM iteration 69:
+12/05/2015 10:10:05 AM greedy construction generated solution with cost: 587.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 583.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 582.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 581.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 580.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 578.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 577.0
+12/05/2015 10:10:05 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:05 AM iteration 70:
+12/05/2015 10:10:05 AM greedy construction generated solution with cost: 609.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:05 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:06 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:06 AM iteration 71:
+12/05/2015 10:10:06 AM greedy construction generated solution with cost: 593.0
+12/05/2015 10:10:06 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:06 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:06 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:06 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:06 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:06 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:06 AM local search produced solution with cost: 583.0
+12/05/2015 10:10:07 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:07 AM iteration 72:
+12/05/2015 10:10:07 AM greedy construction generated solution with cost: 575.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 574.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 573.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 572.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 571.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 570.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 569.0
+12/05/2015 10:10:07 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:07 AM iteration 73:
+12/05/2015 10:10:07 AM greedy construction generated solution with cost: 619.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 617.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:07 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:08 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:08 AM iteration 74:
+12/05/2015 10:10:08 AM greedy construction generated solution with cost: 616.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:08 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:08 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:08 AM iteration 75:
+12/05/2015 10:10:09 AM greedy construction generated solution with cost: 593.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 583.0
+12/05/2015 10:10:09 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:09 AM iteration 76:
+12/05/2015 10:10:09 AM greedy construction generated solution with cost: 630.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 629.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 628.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 627.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 626.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 625.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 624.0
+12/05/2015 10:10:09 AM local search produced solution with cost: 623.0
+12/05/2015 10:10:10 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:10 AM iteration 77:
+12/05/2015 10:10:10 AM greedy construction generated solution with cost: 588.0
+12/05/2015 10:10:10 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:10 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:10 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:10 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:10 AM local search produced solution with cost: 582.0
+12/05/2015 10:10:10 AM local search produced solution with cost: 581.0
+12/05/2015 10:10:10 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:10 AM iteration 78:
+12/05/2015 10:10:11 AM greedy construction generated solution with cost: 593.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:11 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:11 AM iteration 79:
+12/05/2015 10:10:11 AM greedy construction generated solution with cost: 604.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:11 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:12 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:12 AM iteration 80:
+12/05/2015 10:10:12 AM greedy construction generated solution with cost: 590.0
+12/05/2015 10:10:12 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:12 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:12 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:12 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:12 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:12 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:12 AM local search produced solution with cost: 582.0
+12/05/2015 10:10:12 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:12 AM iteration 81:
+12/05/2015 10:10:13 AM greedy construction generated solution with cost: 601.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:13 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:13 AM iteration 82:
+12/05/2015 10:10:13 AM greedy construction generated solution with cost: 617.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:13 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:14 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:14 AM iteration 83:
+12/05/2015 10:10:14 AM greedy construction generated solution with cost: 612.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:14 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:14 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:14 AM iteration 84:
+12/05/2015 10:10:15 AM greedy construction generated solution with cost: 607.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:15 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:15 AM iteration 85:
+12/05/2015 10:10:15 AM greedy construction generated solution with cost: 614.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:15 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:16 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:16 AM iteration 86:
+12/05/2015 10:10:16 AM greedy construction generated solution with cost: 613.0
+12/05/2015 10:10:16 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:16 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:16 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:16 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:16 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:16 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:16 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:16 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:16 AM iteration 87:
+12/05/2015 10:10:17 AM greedy construction generated solution with cost: 590.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 582.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 580.0
+12/05/2015 10:10:17 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:17 AM iteration 88:
+12/05/2015 10:10:17 AM greedy construction generated solution with cost: 633.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 632.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 631.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 630.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 629.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 627.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 626.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 625.0
+12/05/2015 10:10:17 AM local search produced solution with cost: 622.0
+12/05/2015 10:10:18 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:18 AM iteration 89:
+12/05/2015 10:10:18 AM greedy construction generated solution with cost: 616.0
+12/05/2015 10:10:18 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:18 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:18 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:18 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:18 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:18 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:18 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:18 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:18 AM iteration 90:
+12/05/2015 10:10:19 AM greedy construction generated solution with cost: 609.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:19 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:19 AM iteration 91:
+12/05/2015 10:10:19 AM greedy construction generated solution with cost: 616.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:19 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:20 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:20 AM iteration 92:
+12/05/2015 10:10:20 AM greedy construction generated solution with cost: 624.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 623.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 622.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 620.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 617.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:20 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:20 AM iteration 93:
+12/05/2015 10:10:20 AM greedy construction generated solution with cost: 595.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:20 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:21 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:21 AM iteration 94:
+12/05/2015 10:10:21 AM greedy construction generated solution with cost: 625.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 624.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 623.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 622.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 620.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 617.0
+12/05/2015 10:10:21 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:22 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:22 AM iteration 95:
+12/05/2015 10:10:22 AM greedy construction generated solution with cost: 614.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:22 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:22 AM iteration 96:
+12/05/2015 10:10:22 AM greedy construction generated solution with cost: 586.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 583.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 582.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 581.0
+12/05/2015 10:10:22 AM local search produced solution with cost: 578.0
+12/05/2015 10:10:23 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:23 AM iteration 97:
+12/05/2015 10:10:23 AM greedy construction generated solution with cost: 611.0
+12/05/2015 10:10:23 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:23 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:23 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:23 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:23 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:23 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:23 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:24 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:24 AM iteration 98:
+12/05/2015 10:10:24 AM greedy construction generated solution with cost: 580.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 579.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 578.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 577.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 576.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 575.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 573.0
+12/05/2015 10:10:24 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:24 AM iteration 99:
+12/05/2015 10:10:24 AM greedy construction generated solution with cost: 597.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:24 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:25 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:25 AM iteration 100:
+12/05/2015 10:10:25 AM greedy construction generated solution with cost: 600.0
+12/05/2015 10:10:25 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:25 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:25 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:25 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:25 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:25 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:26 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:26 AM iteration 101:
+12/05/2015 10:10:26 AM greedy construction generated solution with cost: 642.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 641.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 640.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 639.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 638.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 637.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 636.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 632.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 630.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 624.0
+12/05/2015 10:10:26 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:26 AM iteration 102:
+12/05/2015 10:10:26 AM greedy construction generated solution with cost: 596.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:26 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:27 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:27 AM iteration 103:
+12/05/2015 10:10:27 AM greedy construction generated solution with cost: 596.0
+12/05/2015 10:10:27 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:27 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:27 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:27 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:27 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:27 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:28 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:28 AM iteration 104:
+12/05/2015 10:10:28 AM greedy construction generated solution with cost: 615.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:28 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:28 AM iteration 105:
+12/05/2015 10:10:28 AM greedy construction generated solution with cost: 636.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 635.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 634.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 633.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 632.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 631.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 630.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 628.0
+12/05/2015 10:10:28 AM local search produced solution with cost: 624.0
+12/05/2015 10:10:29 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:29 AM iteration 106:
+12/05/2015 10:10:29 AM greedy construction generated solution with cost: 597.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:29 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:30 AM best solution so far has cost:: 569.0
+12/05/2015 10:10:30 AM iteration 107:
+12/05/2015 10:10:30 AM greedy construction generated solution with cost: 572.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 571.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 570.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 569.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 568.0
+12/05/2015 10:10:30 AM best solution found updated has cost of 568.0
+12/05/2015 10:10:30 AM the old solution had cost of 569.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 566.0
+12/05/2015 10:10:30 AM best solution found updated has cost of 566.0
+12/05/2015 10:10:30 AM the old solution had cost of 568.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 562.0
+12/05/2015 10:10:30 AM best solution found updated has cost of 562.0
+12/05/2015 10:10:30 AM the old solution had cost of 566.0
+12/05/2015 10:10:30 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:30 AM iteration 108:
+12/05/2015 10:10:30 AM greedy construction generated solution with cost: 597.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:30 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:31 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:31 AM iteration 109:
+12/05/2015 10:10:31 AM greedy construction generated solution with cost: 598.0
+12/05/2015 10:10:31 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:31 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:31 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:31 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:31 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:31 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:31 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:32 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:32 AM iteration 110:
+12/05/2015 10:10:32 AM greedy construction generated solution with cost: 598.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:32 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:32 AM iteration 111:
+12/05/2015 10:10:32 AM greedy construction generated solution with cost: 591.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:32 AM local search produced solution with cost: 581.0
+12/05/2015 10:10:33 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:33 AM iteration 112:
+12/05/2015 10:10:33 AM greedy construction generated solution with cost: 597.0
+12/05/2015 10:10:33 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:33 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:33 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:33 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:33 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:33 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:33 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:34 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:34 AM iteration 113:
+12/05/2015 10:10:34 AM greedy construction generated solution with cost: 603.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:34 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:34 AM iteration 114:
+12/05/2015 10:10:34 AM greedy construction generated solution with cost: 604.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:34 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:35 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:35 AM iteration 115:
+12/05/2015 10:10:35 AM greedy construction generated solution with cost: 602.0
+12/05/2015 10:10:35 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:35 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:35 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:35 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:35 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:35 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:35 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:36 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:36 AM iteration 116:
+12/05/2015 10:10:36 AM greedy construction generated solution with cost: 594.0
+12/05/2015 10:10:36 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:36 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:36 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:36 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:36 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:36 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:36 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:36 AM iteration 117:
+12/05/2015 10:10:37 AM greedy construction generated solution with cost: 614.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:37 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:37 AM iteration 118:
+12/05/2015 10:10:37 AM greedy construction generated solution with cost: 607.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:37 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:38 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:38 AM iteration 119:
+12/05/2015 10:10:38 AM greedy construction generated solution with cost: 623.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 622.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 620.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 619.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 617.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:38 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:38 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:38 AM iteration 120:
+12/05/2015 10:10:39 AM greedy construction generated solution with cost: 609.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:39 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:39 AM iteration 121:
+12/05/2015 10:10:39 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:39 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:40 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:40 AM iteration 122:
+12/05/2015 10:10:40 AM greedy construction generated solution with cost: 603.0
+12/05/2015 10:10:40 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:40 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:40 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:40 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:40 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:40 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:40 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:40 AM iteration 123:
+12/05/2015 10:10:41 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:41 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:41 AM iteration 124:
+12/05/2015 10:10:41 AM greedy construction generated solution with cost: 578.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 577.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 576.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 575.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 574.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 573.0
+12/05/2015 10:10:41 AM local search produced solution with cost: 568.0
+12/05/2015 10:10:42 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:42 AM iteration 125:
+12/05/2015 10:10:42 AM greedy construction generated solution with cost: 591.0
+12/05/2015 10:10:42 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:42 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:42 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:42 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:42 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:42 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:43 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:43 AM iteration 126:
+12/05/2015 10:10:43 AM greedy construction generated solution with cost: 623.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 622.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 620.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 619.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 617.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:43 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:43 AM iteration 127:
+12/05/2015 10:10:43 AM greedy construction generated solution with cost: 577.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 576.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 575.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 574.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 573.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 572.0
+12/05/2015 10:10:43 AM local search produced solution with cost: 571.0
+12/05/2015 10:10:44 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:44 AM iteration 128:
+12/05/2015 10:10:44 AM greedy construction generated solution with cost: 628.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 627.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 626.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 625.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 624.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 623.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 620.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 619.0
+12/05/2015 10:10:44 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:45 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:45 AM iteration 129:
+12/05/2015 10:10:45 AM greedy construction generated solution with cost: 618.0
+12/05/2015 10:10:45 AM local search produced solution with cost: 617.0
+12/05/2015 10:10:45 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:45 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:45 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:45 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:45 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:45 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:45 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:45 AM iteration 130:
+12/05/2015 10:10:46 AM greedy construction generated solution with cost: 612.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:46 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:46 AM iteration 131:
+12/05/2015 10:10:46 AM greedy construction generated solution with cost: 609.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:46 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:47 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:47 AM iteration 132:
+12/05/2015 10:10:47 AM greedy construction generated solution with cost: 572.0
+12/05/2015 10:10:47 AM local search produced solution with cost: 571.0
+12/05/2015 10:10:47 AM local search produced solution with cost: 570.0
+12/05/2015 10:10:47 AM local search produced solution with cost: 569.0
+12/05/2015 10:10:47 AM local search produced solution with cost: 568.0
+12/05/2015 10:10:47 AM local search produced solution with cost: 567.0
+12/05/2015 10:10:47 AM local search produced solution with cost: 562.0
+12/05/2015 10:10:47 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:47 AM iteration 133:
+12/05/2015 10:10:48 AM greedy construction generated solution with cost: 597.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:48 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:48 AM iteration 134:
+12/05/2015 10:10:48 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:48 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:49 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:49 AM iteration 135:
+12/05/2015 10:10:49 AM greedy construction generated solution with cost: 610.0
+12/05/2015 10:10:49 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:49 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:49 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:49 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:49 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:49 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:49 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:49 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:49 AM iteration 136:
+12/05/2015 10:10:50 AM greedy construction generated solution with cost: 622.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 620.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 619.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:50 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:50 AM iteration 137:
+12/05/2015 10:10:50 AM greedy construction generated solution with cost: 586.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 585.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 583.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 582.0
+12/05/2015 10:10:50 AM local search produced solution with cost: 581.0
+12/05/2015 10:10:51 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:51 AM iteration 138:
+12/05/2015 10:10:51 AM greedy construction generated solution with cost: 596.0
+12/05/2015 10:10:51 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:51 AM local search produced solution with cost: 594.0
+12/05/2015 10:10:51 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:51 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:51 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:51 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:51 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:51 AM iteration 139:
+12/05/2015 10:10:52 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 602.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:52 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:52 AM iteration 140:
+12/05/2015 10:10:52 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 606.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 605.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 604.0
+12/05/2015 10:10:52 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:53 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:53 AM iteration 141:
+12/05/2015 10:10:53 AM greedy construction generated solution with cost: 620.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 619.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 617.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 616.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 613.0
+12/05/2015 10:10:53 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:53 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:53 AM iteration 142:
+12/05/2015 10:10:54 AM greedy construction generated solution with cost: 613.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 612.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 611.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 610.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 609.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 608.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 607.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 603.0
+12/05/2015 10:10:54 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:54 AM iteration 143:
+12/05/2015 10:10:54 AM greedy construction generated solution with cost: 625.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 624.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 623.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 622.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 620.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 619.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 618.0
+12/05/2015 10:10:54 AM local search produced solution with cost: 615.0
+12/05/2015 10:10:55 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:55 AM iteration 144:
+12/05/2015 10:10:55 AM greedy construction generated solution with cost: 602.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 601.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:55 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:55 AM iteration 145:
+12/05/2015 10:10:55 AM greedy construction generated solution with cost: 592.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:55 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 580.0
+12/05/2015 10:10:56 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:56 AM iteration 146:
+12/05/2015 10:10:56 AM greedy construction generated solution with cost: 576.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 575.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 574.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 573.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 572.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 570.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 567.0
+12/05/2015 10:10:56 AM local search produced solution with cost: 566.0
+12/05/2015 10:10:57 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:57 AM iteration 147:
+12/05/2015 10:10:57 AM greedy construction generated solution with cost: 594.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 593.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 592.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 584.0
+12/05/2015 10:10:57 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:57 AM iteration 148:
+12/05/2015 10:10:57 AM greedy construction generated solution with cost: 631.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 630.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 629.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 628.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 627.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 626.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 624.0
+12/05/2015 10:10:57 AM local search produced solution with cost: 621.0
+12/05/2015 10:10:58 AM local search produced solution with cost: 614.0
+12/05/2015 10:10:58 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:58 AM iteration 149:
+12/05/2015 10:10:58 AM greedy construction generated solution with cost: 601.0
+12/05/2015 10:10:58 AM local search produced solution with cost: 600.0
+12/05/2015 10:10:58 AM local search produced solution with cost: 599.0
+12/05/2015 10:10:58 AM local search produced solution with cost: 598.0
+12/05/2015 10:10:58 AM local search produced solution with cost: 597.0
+12/05/2015 10:10:58 AM local search produced solution with cost: 596.0
+12/05/2015 10:10:58 AM local search produced solution with cost: 595.0
+12/05/2015 10:10:59 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:59 AM iteration 150:
+12/05/2015 10:10:59 AM greedy construction generated solution with cost: 591.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:59 AM best solution so far has cost:: 562.0
+12/05/2015 10:10:59 AM iteration 151:
+12/05/2015 10:10:59 AM greedy construction generated solution with cost: 592.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 591.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 590.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 589.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 588.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 587.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 586.0
+12/05/2015 10:10:59 AM local search produced solution with cost: 582.0
+12/05/2015 10:11:00 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:00 AM iteration 152:
+12/05/2015 10:11:00 AM greedy construction generated solution with cost: 616.0
+12/05/2015 10:11:00 AM local search produced solution with cost: 615.0
+12/05/2015 10:11:00 AM local search produced solution with cost: 614.0
+12/05/2015 10:11:00 AM local search produced solution with cost: 613.0
+12/05/2015 10:11:00 AM local search produced solution with cost: 612.0
+12/05/2015 10:11:00 AM local search produced solution with cost: 611.0
+12/05/2015 10:11:00 AM local search produced solution with cost: 610.0
+12/05/2015 10:11:01 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:01 AM iteration 153:
+12/05/2015 10:11:01 AM greedy construction generated solution with cost: 607.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 606.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 604.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 603.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 602.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 601.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 600.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 598.0
+12/05/2015 10:11:01 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:01 AM iteration 154:
+12/05/2015 10:11:01 AM greedy construction generated solution with cost: 612.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 611.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 610.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 609.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 608.0
+12/05/2015 10:11:01 AM local search produced solution with cost: 607.0
+12/05/2015 10:11:02 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:02 AM iteration 155:
+12/05/2015 10:11:02 AM greedy construction generated solution with cost: 608.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 607.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 606.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 604.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 603.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 602.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 601.0
+12/05/2015 10:11:02 AM local search produced solution with cost: 600.0
+12/05/2015 10:11:02 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:02 AM iteration 156:
+12/05/2015 10:11:03 AM greedy construction generated solution with cost: 629.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 628.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 627.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 626.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 625.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 624.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 623.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 620.0
+12/05/2015 10:11:03 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:03 AM iteration 157:
+12/05/2015 10:11:03 AM greedy construction generated solution with cost: 614.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 613.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 612.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 611.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 610.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 608.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 607.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 606.0
+12/05/2015 10:11:03 AM local search produced solution with cost: 604.0
+12/05/2015 10:11:04 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:04 AM iteration 158:
+12/05/2015 10:11:04 AM greedy construction generated solution with cost: 600.0
+12/05/2015 10:11:04 AM local search produced solution with cost: 599.0
+12/05/2015 10:11:04 AM local search produced solution with cost: 598.0
+12/05/2015 10:11:04 AM local search produced solution with cost: 597.0
+12/05/2015 10:11:04 AM local search produced solution with cost: 596.0
+12/05/2015 10:11:04 AM local search produced solution with cost: 595.0
+12/05/2015 10:11:04 AM local search produced solution with cost: 594.0
+12/05/2015 10:11:04 AM local search produced solution with cost: 590.0
+12/05/2015 10:11:04 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:05 AM iteration 159:
+12/05/2015 10:11:05 AM greedy construction generated solution with cost: 613.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 612.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 611.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 610.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 609.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 608.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 607.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 606.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:05 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:05 AM iteration 160:
+12/05/2015 10:11:05 AM greedy construction generated solution with cost: 615.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 614.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 613.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 612.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 611.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 610.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 609.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:05 AM local search produced solution with cost: 603.0
+12/05/2015 10:11:06 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:06 AM iteration 161:
+12/05/2015 10:11:06 AM greedy construction generated solution with cost: 625.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 624.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 623.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 622.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 621.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 620.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 619.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 617.0
+12/05/2015 10:11:06 AM local search produced solution with cost: 615.0
+12/05/2015 10:11:07 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:07 AM iteration 162:
+12/05/2015 10:11:07 AM greedy construction generated solution with cost: 599.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 598.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 597.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 596.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 595.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 594.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 593.0
+12/05/2015 10:11:07 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:07 AM iteration 163:
+12/05/2015 10:11:07 AM greedy construction generated solution with cost: 606.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 604.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 603.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 602.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 600.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 599.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 597.0
+12/05/2015 10:11:07 AM local search produced solution with cost: 596.0
+12/05/2015 10:11:08 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:08 AM iteration 164:
+12/05/2015 10:11:08 AM greedy construction generated solution with cost: 606.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 604.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 603.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 602.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 601.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 600.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 598.0
+12/05/2015 10:11:08 AM local search produced solution with cost: 594.0
+12/05/2015 10:11:09 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:09 AM iteration 165:
+12/05/2015 10:11:09 AM greedy construction generated solution with cost: 602.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 601.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 600.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 599.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 598.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 597.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 594.0
+12/05/2015 10:11:09 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:09 AM iteration 166:
+12/05/2015 10:11:09 AM greedy construction generated solution with cost: 610.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 609.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 608.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 607.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 606.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 604.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 602.0
+12/05/2015 10:11:09 AM local search produced solution with cost: 601.0
+12/05/2015 10:11:10 AM local search produced solution with cost: 600.0
+12/05/2015 10:11:10 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:10 AM iteration 167:
+12/05/2015 10:11:10 AM greedy construction generated solution with cost: 590.0
+12/05/2015 10:11:10 AM local search produced solution with cost: 589.0
+12/05/2015 10:11:10 AM local search produced solution with cost: 588.0
+12/05/2015 10:11:10 AM local search produced solution with cost: 587.0
+12/05/2015 10:11:10 AM local search produced solution with cost: 586.0
+12/05/2015 10:11:10 AM local search produced solution with cost: 585.0
+12/05/2015 10:11:10 AM local search produced solution with cost: 584.0
+12/05/2015 10:11:11 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:11 AM iteration 168:
+12/05/2015 10:11:11 AM greedy construction generated solution with cost: 640.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 639.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 638.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 637.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 636.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 635.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 634.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 633.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 632.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 630.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 628.0
+12/05/2015 10:11:11 AM local search produced solution with cost: 625.0
+12/05/2015 10:11:11 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:11 AM iteration 169:
+12/05/2015 10:11:12 AM greedy construction generated solution with cost: 590.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 589.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 588.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 587.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 586.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 585.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 584.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 580.0
+12/05/2015 10:11:12 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:12 AM iteration 170:
+12/05/2015 10:11:12 AM greedy construction generated solution with cost: 609.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 608.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 607.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 606.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 603.0
+12/05/2015 10:11:12 AM local search produced solution with cost: 599.0
+12/05/2015 10:11:13 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:13 AM iteration 171:
+12/05/2015 10:11:13 AM greedy construction generated solution with cost: 632.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 631.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 630.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 629.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 628.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 627.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 626.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 625.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 624.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 620.0
+12/05/2015 10:11:13 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:13 AM iteration 172:
+12/05/2015 10:11:13 AM greedy construction generated solution with cost: 595.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 594.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 593.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 592.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 591.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 590.0
+12/05/2015 10:11:13 AM local search produced solution with cost: 589.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 583.0
+12/05/2015 10:11:14 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:14 AM iteration 173:
+12/05/2015 10:11:14 AM greedy construction generated solution with cost: 619.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 618.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 617.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 616.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 615.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 614.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 613.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 611.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 609.0
+12/05/2015 10:11:14 AM local search produced solution with cost: 607.0
+12/05/2015 10:11:15 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:15 AM iteration 174:
+12/05/2015 10:11:15 AM greedy construction generated solution with cost: 607.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 606.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 605.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 604.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 603.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 602.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 601.0
+12/05/2015 10:11:15 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:15 AM iteration 175:
+12/05/2015 10:11:15 AM greedy construction generated solution with cost: 576.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 575.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 574.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 573.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 572.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 571.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 570.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 567.0
+12/05/2015 10:11:15 AM local search produced solution with cost: 566.0
+12/05/2015 10:11:16 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:16 AM iteration 176:
+12/05/2015 10:11:16 AM greedy construction generated solution with cost: 592.0
+12/05/2015 10:11:16 AM local search produced solution with cost: 591.0
+12/05/2015 10:11:16 AM local search produced solution with cost: 590.0
+12/05/2015 10:11:16 AM local search produced solution with cost: 589.0
+12/05/2015 10:11:16 AM local search produced solution with cost: 588.0
+12/05/2015 10:11:16 AM local search produced solution with cost: 586.0
+12/05/2015 10:11:16 AM local search produced solution with cost: 585.0
+12/05/2015 10:11:17 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:17 AM iteration 177:
+12/05/2015 10:11:17 AM greedy construction generated solution with cost: 589.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 588.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 587.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 586.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 585.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 584.0
+12/05/2015 10:11:17 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:17 AM iteration 178:
+12/05/2015 10:11:17 AM greedy construction generated solution with cost: 599.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 598.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 597.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 596.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 595.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 594.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 593.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 591.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 590.0
+12/05/2015 10:11:17 AM local search produced solution with cost: 589.0
+12/05/2015 10:11:18 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:18 AM iteration 179:
+12/05/2015 10:11:18 AM greedy construction generated solution with cost: 600.0
+12/05/2015 10:11:18 AM local search produced solution with cost: 599.0
+12/05/2015 10:11:18 AM local search produced solution with cost: 598.0
+12/05/2015 10:11:18 AM local search produced solution with cost: 597.0
+12/05/2015 10:11:18 AM local search produced solution with cost: 596.0
+12/05/2015 10:11:18 AM local search produced solution with cost: 595.0
+12/05/2015 10:11:18 AM local search produced solution with cost: 590.0
+12/05/2015 10:11:19 AM best solution so far has cost:: 562.0
+12/05/2015 10:11:19 AM iteration 180:
+12/05/2015 10:11:19 AM greedy construction generated solution with cost: 589.0
+12/05/2015 10:11:19 AM local search produced solution with cost: 588.0
+12/05/2015 10:11:19 AM local search produced solution with cost: 587.0
+12/05/2015 10:11:19 AM solver completed
+12/05/2015 10:11:19 AM best solution found has cost: 562.0
